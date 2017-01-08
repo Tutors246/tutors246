@@ -13,8 +13,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
+	 <!-- Custom CSS -->
     <link href="css/portfolio-item.css" rel="stylesheet">
 	 <link href="css/bootstrap.mins.css" rel="stylesheet">
     <link href="css/portfolio-items.css" rel="stylesheet">
@@ -51,7 +50,7 @@
                     <a href="#"><big><div align="center">About</div></big></a>
                     </li>
                     <li>
-                        <a href="#services"><big><div align="center">Services</div></big></a>
+                        <a href="services.html"><big><div align="center">Services</div></big></a>
                     </li>
                     <li>
                         <a href="https://docs.google.com/forms/d/1CPaKXXYCypoXHfGQSEA1okqVqzEYCQHPnzWNFq19FUg/prefill"><big><div align="center">Contact</div></big></a>
