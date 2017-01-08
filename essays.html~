@@ -54,7 +54,7 @@
                         <a href="#services"><big><div align="center">Services</div></big></a>
                     </li>
                     <li>
-                        <a href="#"><big><div align="center">Contact</div></big></a>
+                        <a href="https://docs.google.com/forms/d/1CPaKXXYCypoXHfGQSEA1okqVqzEYCQHPnzWNFq19FUg/prefill"><big><div align="center">Contact</div></big></a>
                     </li>
                 </ul> 
 
@@ -117,7 +117,7 @@
             
 		      <div class="col-sm-3 col-xs-6">
                 <a href="#"> </a>
-                    <h1>English A</h1>
+                    <h1>APA Style</h1>
     
    
             <p>
@@ -130,8 +130,8 @@
             </div>
 
             <div class="col-sm-3 col-xs-6">
-            <h1>Mathematics</h1>
-				<p>
+            <h1>Chicago Style</h1>
+            <p>
             <br>Problem Solving Strategies and Skills	
 				<br>Number Concepts and Properties of Numbers 
 				<br>Fractions and Decimals
@@ -143,7 +143,7 @@
             </div>
 
             <div class="col-sm-3 col-xs-6">
-	         <h1>Non-Verbal Reasoning </h1>
+	         <h1>MLA Style</h1>
 				<p>
 					Problem-solving skills
 					<br>Capacity for logical thinking
@@ -155,7 +155,7 @@
             </div>
             
             <div class="col-sm-3 col-xs-6">
-               <h1>Verbal Reasoning</h1>
+               <h1>OSCOLA Style</h1>
 					  The examination will consist of two papers: Paper 01, an objective type paper based on the Core Objectives
 							and Paper 02, an essay or problem solving type paper based on both the Core and Optional Objectives.
 					      <p>Computation

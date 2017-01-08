@@ -55,10 +55,10 @@
                     <a href="#"><big><div align="center">About</div></big></a>
                     </li>
                     <li>
-                        <a href="#services"><big><div align="center">Services</div></big></a>
+                        <a href="services.html"><big><div align="center">Services</div></big></a>
                     </li>
                     <li>
-                        <a href="essays.html"><big><div align="center">Contact</div></big></a>
+                        <a href="https://docs.google.com/forms/d/1CPaKXXYCypoXHfGQSEA1okqVqzEYCQHPnzWNFq19FUg/prefill"><big><div align="center">Contact</div></big></a>
                     </li>
                 </ul> 
 
@@ -94,7 +94,7 @@
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<a href="appointment.html">
+						<a href="https://docs.google.com/forms/d/1CPaKXXYCypoXHfGQSEA1okqVqzEYCQHPnzWNFq19FUg/prefill">
 						<img border="0" alt="W3Schools" src="img/icon_tutor.png">
 						</a>                
 						                
@@ -117,6 +117,9 @@
                     <br>
                     <abbr title="Email">E:</abbr> <a href="mailto:#">tutors246@gmail.com</a>
                 </address>
+                  <a href="http://46i48l108maaxssg8uyuvr10.wpengine.netdna-cdn.com/files/Timetable/Timetable_CSEC_2017_May_June.pdf">
+						CXC Timetable						
+						</a>
             </div>
         </div>
         <!-- /.row -->
@@ -154,7 +157,7 @@
             </div>
             <div class="col-sm-4">
                 <br><br><br><br><br>
-                <img class="img-circle img-responsive img-center" src="img/excellent-grade-for-scholarship-essay.jpg" alt="">
+                <img class="img-circle img-responsive img-center" src="img/bestessay.jpg" alt="">
                
                 <div align="center"><h2>Esay Writing</h2></div>
                 <p>
@@ -184,7 +187,8 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-						<p>Copyright &copy; Tutors246 2017</p>
+						<p>Copyright &copy; Tutors246 2017</p>&nbsp;
+						
                 </div>
             </div>
             <!-- /.row -->
