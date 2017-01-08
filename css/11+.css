@@ -13,3 +13,7 @@ h1 {
   font-size: 30px;
   font-weight: normal;
 }
+
+.submit-button {
+  margin-top: 10px;
+}

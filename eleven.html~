@@ -18,6 +18,7 @@
     <link href="css/portfolio-item.css" rel="stylesheet">
 	 <link href="css/bootstrap.mins.css" rel="stylesheet">
     <link href="css/portfolio-items.css" rel="stylesheet">
+    <link href="css/11.css" rel="stylesheet">
     
 
 </head>
@@ -85,9 +86,9 @@
             </div>
 
             <div class="col-md-4">
-				<div align="center"><h3 class="page-header"><strong>Homework Tutoring</strong></h3>				<div align="center"><img src="img/SL-Homework-2-2016-600x327.png"/> </div></div>
-				<div align="center"><img src="img/SL-Homework-2-2016-600x327.png"/> </div>
-				<div align="center"><br><p> Do you have a homework assignment to submit? </p>
+				<div align="center"><h3><strong>Homework Tutoring</strong></h3></div>
+				<div align="center"><img src="img/icon-tutoring-english.png"/> </div>
+				<br><p> Do you have a homework assignment to submit? </p>
 				<p> Are you having difficulty with the questions or problems? </p>
 				<p> We can help you solve the problem or provide guidance? </p>
 				<p> Just schedule a skype appointment for step-by-step guidance?</p>
@@ -98,9 +99,9 @@
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							 
               
-                <ul></div>
+                <ul>
               <div align="center">    <a href="appointment.html">
-							<img border="0" alt="W3Schools" src="img/icon_tutor.png">
+							<img border="0" alt="W3Schools" src="img/icon_tutor.png" width="100" height="100">
 							</a></div> 
                 </ul>
             </div>
@@ -116,22 +117,21 @@
             </div>
             
 		      <div class="col-sm-3 col-xs-6">
-                <a href="#"> </a>
-                    <h1>English A</h1>
-    
-   
-            <p>
+<div align="center">            <h3>English A</h3></div>
+<div align="center">				<br><img src="img/english.jpg"/>    			</div>
+    			<div align="center"><div align="center"><p>
 				<br>Comprehension 
 				<br>Reading: Literary Prose and Poetry
 				<br>Punctuation <br> Syntax <br> Reading/Response <br> Grammar  
 				<br>Writing
-            <p>
-               
+            <p></div></div>
+
             </div>
 
             <div class="col-sm-3 col-xs-6">
-            <h1>Mathematics</h1>
-				<p>
+<div align="center">            <h3>Mathematics</h3></div>
+<div align="center">            <br><img src="img/Math.jpg"/>    			</div>
+				<div align="center"><p>
             <br>Problem Solving Strategies and Skills	
 				<br>Number Concepts and Properties of Numbers 
 				<br>Fractions and Decimals
@@ -139,24 +139,26 @@
 				<br>Percentages and Measurement
 				<br>Geometry and Set Theory 
 				<br>Data Handling
-				</p> 
+				</p> </div>
             </div>
 
             <div class="col-sm-3 col-xs-6">
-	         <h1>Non-Verbal Reasoning </h1>
+<div align="center">	         <h3>Non-Verbal Reasoning </h3></div>
+	         <div align="center"><img src="img/nonverbal.png"/>
 				<p>
-					Problem-solving skills
+					<br><br clear="all">Problem-solving skills
 					<br>Capacity for logical thinking
 					<br>Spatial awareness
 					<br>Ability to understand sequences
 					<br>Ability to visualise mathematical processes
 					<br><br clear="all"> 
-            </p>
+            </p></div>
             </div>
             
             <div class="col-sm-3 col-xs-6">
-               <h1>Verbal Reasoning</h1>
-					  The examination will consist of two papers: Paper 01, an objective type paper based on the Core Objectives
+               <div align="center"><h3>Verbal Reasoning</h3>
+<div align="center">               <img src="img/unnamed.png"/></div>
+					  <br clear="all">The examination will consist of two papers: Paper 01, an objective type paper based on the Core Objectives
 							and Paper 02, an essay or problem solving type paper based on both the Core and Optional Objectives.
 					      <p>Computation
 							<br>Number Theory
@@ -166,7 +168,7 @@
 							<br>Statistics
 							<br>Algebra
 							<br>Relations, Functions and Graphs
-							<br>Geometry and Trigonometry
+							<br>Geometry and Trigonometry</div>
             </div>
             
           
@@ -175,6 +177,38 @@
         <!-- /.row -->
 
         <hr>
+
+		
+		<br clear="all"><br clear="all"><br clear="all"><br clear="all">
+		<br clear="all"><br clear="all"><br clear="all"><br clear="all">
+		<br clear="all"><br clear="all"><br clear="all"><br clear="all">
+		
+		<br clear="all"><br clear="all"><br clear="all"><br clear="all">
+		<br clear="all"><br clear="all"><br clear="all"><br clear="all">
+		<br clear="all"><br clear="all"><br clear="all"><br clear="all">
+		<br clear="all"><br clear="all"><div class="pricing">
+		  <div class="[ price-option price-option--low ]">
+		    <div class="price-option__detail">
+		      <span class="price-option__cost">$0</span>
+		      <span class="price-option__type">Freeuser</span>
+		    </div>
+		    <a href="#" class="price-option__purchase">Get</a>
+		  </div>
+		  <div class="[ price-option price-option--mid ]">
+		    <div class="price-option__detail">
+		      <span class="price-option__cost">$20</span>
+		      <span class="price-option__type">Poweruser</span>
+		    </div>
+		    <a href="#" class="price-option__purchase">Buy</a>
+		  </div>
+		  <div class="[ price-option price-option--high ]">
+		    <div class="price-option__detail">
+		      <span class="price-option__cost">$40</span>
+		      <span class="price-option__type">Superuser</span>
+		    </div>
+		    <a href="#" class="price-option__purchase">Buy</a>
+		  </div>
+		</div>
 
         <!-- Footer -->
         <footer>
@@ -203,6 +237,7 @@
 	 <script src="js/cxc.js"></script>
 	 <script src="js/menu.js"></script>
     <script src="js/11+.js"></script>
+    <script src="js/11.js"></script>
 
 
 </body>
