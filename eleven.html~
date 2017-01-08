@@ -70,7 +70,7 @@
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-               <br clear="all"><br clear="all"><h1 class="page-header"><a href="http://www.cxc.org/"><img src="img/download_thumbnail.jpeg" alt="lign="left" width="75" height="75"></a>
+               <br clear="all"><br clear="all"><h1 class="page-header"><img src="img/download_thumbnail.jpeg" alt="lign="left" width="75" height="75">
                    <small>Common Entrance Examination</small>
                 </h1>
             </div>
@@ -85,20 +85,20 @@
             </div>
 
             <div class="col-md-4">
-                <h3>	<strong>Homework</strong></h3>
-<div align="center">                <img src="img/SL-Homework-2-2016-600x327.png"/> </div>
-							<p> Do you have a homework assignment to submit? </p>
-							<p> Are you having difficulty with the questions or problems? </p>
-							<p> We can help you solve the problem or provide guidance? </p>
-							<p> Just schedule a skype appointment for step-by-step guidance?</p> </h2>
-							</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<div align="center"><h3 class="page-header"><strong>Homework Tutoring</strong></h3>				<div align="center"><img src="img/SL-Homework-2-2016-600x327.png"/> </div></div>
+				<div align="center"><img src="img/SL-Homework-2-2016-600x327.png"/> </div>
+				<div align="center"><br><p> Do you have a homework assignment to submit? </p>
+				<p> Are you having difficulty with the questions or problems? </p>
+				<p> We can help you solve the problem or provide guidance? </p>
+				<p> Just schedule a skype appointment for step-by-step guidance?</p>
+				</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							 
               
-                <ul>
+                <ul></div>
               <div align="center">    <a href="appointment.html">
 							<img border="0" alt="W3Schools" src="img/icon_tutor.png">
 							</a></div> 
