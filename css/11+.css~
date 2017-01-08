@@ -1,0 +1,19 @@
+body {
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 35px;
+  margin-top: 120px;
+  text-align: center;
+  color: #000;
+}
+
+#cursor {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.submit-button {
+  margin-top: 10px;
+}
