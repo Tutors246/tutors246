@@ -1,123 +1,86 @@
-*, :before, :after {
-  box-sizing: border-box;
-}
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 html {
-  font: normal 100%/1.5 sans-serif;
-  word-wrap: break-word;
+    background: url(http://upload.robinbrons.com/u/1362757499.png);
 }
-
-html, body {
-  height: 100%;
-}
-
-@media screen and (min-width: 740px) {
-  .price-block--wrapper {
-    display: flex;
-  }
-}
-
-.price-block {
-  padding: 0 1rem;
+body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
-  color: #EFEFEF;
 }
-@media screen and (max-width: 739.9px) {
-  .price-block {
-    position: relative;
-  }
+.event {
+  width: 300px;
+  height: 80px;
+  background: #fff;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+  margin: 50px;
 }
-.price-block:nth-child(1) {
-  background: #0D3640;
+.event:before {
+  content: '';
+  display: block;
+  width: 295px;
+  height: 70px;
+  background: #fff;
+  border: 1px solid #CCC;
+  border-radius: 2px; 
+  transform: rotate(2deg);
+  position: relative;
+  top: 12px;
+  left: 2px;
+  z-index: -1;
 }
-@media screen and (min-width: 740px) {
-  .price-block:nth-child(1) {
-    flex: 1;
-  }
+.event:after {
+  content: '';
+  display: block;
+  width: 295px;
+  height: 75px;
+  background: #fff;
+  border: 1px solid #CCC;
+  border-radius: 2px; 
+  transform: rotate(-2deg);
+  position: relative;
+  top: -136px;
+  z-index: -2;  
 }
-.price-block:nth-child(2) {
-  background: #114552;
+.event > span {
+  display: block;
+  width: 30px;
+  background: #232323;  
+  position: relative;
+  top: -55px;
+  left: -15px;
+  
+  /* Text */
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 7px;
+  text-align: right;
 }
-@media screen and (min-width: 740px) {
-  .price-block:nth-child(2) {
-    flex: 1;
-  }
+.event > .info {
+  display: inline-block;
+  position: relative;
+  top: -75px;
+  left: 40px;
+  
+  /* Text */
+  color: #232323;
+  font-weight: 600;
+  line-height: 25px;
 }
-.price-block:nth-child(3) {
-  background: #145464;
-}
-@media screen and (min-width: 740px) {
-  .price-block:nth-child(3) {
-    flex: 1;
-  }
-}
-.price-block:nth-child(4) {
-  background: #186476;
-}
-@media screen and (min-width: 740px) {
-  .price-block:nth-child(4) {
-    flex: 1;
-  }
-}
-
-.price-block__title {
-  margin-top: 0;
-  margin-bottom: 1.25rem;
-  padding: 1.25rem 0 0;
-  font-size: 1.25em;
+.event > .info:first-line {
+  text-transform: uppercase;
+  font-size: 10px;
+  margin: 10px 0 0 0;
   font-weight: 700;
-  line-height: 1;
 }
-
-.price-block__cost {
-  font-weight: 300;
-  font-style: italic;
-}
-
-.price-block__btn {
-  appearance: none;
-  border: none;
-  margin: 0.625rem 0 0.3125rem;
-  width: 100%;
-  background: #0a2930;
-  color: #EFEFEF;
-}
-.price-block__btn:hover {
-  background: #0b2e36;
-}
-
-.price-block__info {
-  padding: 0 0 1.25rem;
-}
-@media screen and (max-width: 739.9px) {
-  .price-block__info {
-    height: 0;
-    visibility: hidden;
-  }
-}
-@media screen and (max-width: 739.9px) {
-  .price-block__info.opened {
-    height: auto;
-    visibility: visible;
-  }
-}
-
-@media screen and (max-width: 739.9px) {
-  .price-block__trigger {
-    position: absolute;
-    top: 5px;
-    right: 20px;
-    font-size: 1.5625em;
-    font-style: normal;
-  }
-  .price-block__trigger:hover {
-    cursor: pointer;
-  }
-}
-@media screen and (min-width: 740px) {
-  .price-block__trigger {
-    display: none;
-  }
+.event > .price {
+  display: inline-block;
+  width: 60px;
+  position: relative;
+  top: -85px;
+  left: 115px; 
+  
+  /* Text */
+  color: #E35354;
+  text-align: center;
+  font-weight: 700;
 }

@@ -71,9 +71,9 @@
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-               <br clear="all"><br clear="all"><h1 class="page-header"><a href="http://www.cxc.org/"><img src="img/img.jpg" alt="lign="left" width="75" height="75"></a>
+               <br clear="all"><br clear="all"><h3 class="page-header"><a href="http://www.cxc.org/"><img src="img/img.jpg" alt="lign="left" width="75" height="75"></a>
                    <small>Caribbean Examination Council Preparation Tips</small>
-                </h1>
+                </h3>
             </div>
         </div>
         <!-- /.row -->
@@ -82,13 +82,23 @@
         <div class="row">
 
             <div class="col-md-8">
-<iframe width="750" height="345" src="https://www.youtube.com/embed/TOvWRIqFfuM" frameborder="0" allowfullscreen></iframe>
+<iframe width="750" height="525" src="https://www.youtube.com/embed/TOvWRIqFfuM" frameborder="0" allowfullscreen></iframe>
             </div>
 
-            <div class="col-md-4">
-<div align="center">                <h3>Overview</h3></div>
-              <div align="center">  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-				  </div>
+            <div class="col-sm-3 col-xs-6">
+              <h3>Overview</h3>
+
+              <p>
+              Our tutoring process begins with an assessment test in the area in which you wish to be tutored. 
+              The test assists in assessing your skills and understanding level to allow us to better cater our 
+              tutoring at a pace and with a focus on the area in which you need to build your knowledge.
+              <p>
+              We then offer progress tests to evaluate your progress and better prepare you for the exam. We also 
+              offer mock examinations, which are timed to the actual examination to better prepare you for 
+              success on your examination day.
+				  </p>              
+              </p>
+
                  <div align="center"> <a href="https://docs.google.com/forms/d/1CPaKXXYCypoXHfGQSEA1okqVqzEYCQHPnzWNFq19FUg/prefill">
 						<img border="0" alt="W3Schools" src="img/icon_tutor.png">
 						</a> </div>
@@ -100,13 +110,13 @@
         <!-- Tutoring Subjects and Topics -->
         <div class="row">
 
-            <div class="col-lg-12">
-                <h3 class="page-header">Tutoring Subjects and Topics</h3>
-            </div>
 
-            <div class="col-sm-3 col-xs-6">
+                <h3 class="page-header">Tutoring Subjects and Topics</h3>
+         
+
+        <div align="center">    <div class="col-sm-3 col-xs-6">
                 <a href="#"> </a>
-                    <h1>English A</h1>
+                    <h3>English A</h3>
     
     <p> <strong>Understanding</strong>
 			<br>(a) understand meaning conveyed in reading, through word choice, grammar, punctuation
@@ -123,8 +133,8 @@
                
             </div>
 
-            <div class="col-lg-12">
-                 <h1>Geography</h1>
+            <div class="col-sm-3 col-xs-6">
+                 <h3>Geography</h3>
 				
 				    <p>
 				<strong>   <p>  Practical skills (PS)</strong>
@@ -140,7 +150,7 @@
             </div>
 
             <div class="col-sm-3 col-xs-6">
-	            <h1>History</h1>
+	            <h3>History</h3>
 				 <p>
 				    <strong>Section A </strong>
 						<br>The Indigenous Peoples and the Europeans
@@ -157,8 +167,8 @@
 				    </p>
             </div>
 
-            <div class="col-lg-12">
-               <h1>Mathematics</h1>
+            <div class="col-sm-3 col-xs-6">
+               <h3>Mathematics</h3>
 					  The examination will consist of two papers: Paper 01, an objective type paper based on the Core Objectives
 							and Paper 02, an essay or problem solving type paper based on both the Core and Optional Objectives.
 					      <p>Computation
@@ -173,7 +183,7 @@
             </div>
             
                <div class="col-sm-3 col-xs-6">
-               <h1>Office Procedures</h1>
+               <h3>Office Procedures</h3>
 
     <p>
       <br>OFFICE ORIENTATION
@@ -193,11 +203,11 @@
             
                 </div>
             
-            <div class="col-lg-12">
+            <div class="col-sm-3 col-xs-6">
 
 
     <p>
-       <h1>Principles of Business</h1>
+       <h3>Principles of Business</h3>
 		<br>SECTION 1 - THE NATURE OF BUSINESS
 		<br>SECTION 2 - INTERNAL ORGANIZATIONAL ENVIRONMENT
 		<br>SECTION 3 - ESTABLISHING A BUSINESS
@@ -214,7 +224,7 @@
             
             <div class="col-sm-3 col-xs-6">
 
-     <h1>Social Studies</h1>
+     <h3>Social Studies</h3>
 
     <p>
 <strong>  <p>   <br> Section A- Individual, Family and Society</strong></p>
@@ -225,7 +235,7 @@
 		<br>C1 - Communication
 		<br>C2 - Consumer Affairs
 	<br>	C3 - Tourism
-    </p>
+    </p></div>
             </div>
 
         </div>
