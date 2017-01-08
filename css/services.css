@@ -1,0 +1,123 @@
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+html {
+  font: normal 100%/1.5 sans-serif;
+  word-wrap: break-word;
+}
+
+html, body {
+  height: 100%;
+}
+
+@media screen and (min-width: 740px) {
+  .price-block--wrapper {
+    display: flex;
+  }
+}
+
+.price-block {
+  padding: 0 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #EFEFEF;
+}
+@media screen and (max-width: 739.9px) {
+  .price-block {
+    position: relative;
+  }
+}
+.price-block:nth-child(1) {
+  background: #0D3640;
+}
+@media screen and (min-width: 740px) {
+  .price-block:nth-child(1) {
+    flex: 1;
+  }
+}
+.price-block:nth-child(2) {
+  background: #114552;
+}
+@media screen and (min-width: 740px) {
+  .price-block:nth-child(2) {
+    flex: 1;
+  }
+}
+.price-block:nth-child(3) {
+  background: #145464;
+}
+@media screen and (min-width: 740px) {
+  .price-block:nth-child(3) {
+    flex: 1;
+  }
+}
+.price-block:nth-child(4) {
+  background: #186476;
+}
+@media screen and (min-width: 740px) {
+  .price-block:nth-child(4) {
+    flex: 1;
+  }
+}
+
+.price-block__title {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem 0 0;
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.price-block__cost {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.price-block__btn {
+  appearance: none;
+  border: none;
+  margin: 0.625rem 0 0.3125rem;
+  width: 100%;
+  background: #0a2930;
+  color: #EFEFEF;
+}
+.price-block__btn:hover {
+  background: #0b2e36;
+}
+
+.price-block__info {
+  padding: 0 0 1.25rem;
+}
+@media screen and (max-width: 739.9px) {
+  .price-block__info {
+    height: 0;
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 739.9px) {
+  .price-block__info.opened {
+    height: auto;
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 739.9px) {
+  .price-block__trigger {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 1.5625em;
+    font-style: normal;
+  }
+  .price-block__trigger:hover {
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 740px) {
+  .price-block__trigger {
+    display: none;
+  }
+}
