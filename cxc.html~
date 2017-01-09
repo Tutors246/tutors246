@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Nakeshia Lorde" >
 
-    <title>Portfolio Item - Start Bootstrap Template</title>
+    <title>Caribbean Examination Council Tutoring</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
                     <img src="img\logo.png.png" alt="">
                     </li>
 						  <li>
-                    <a href="#index.html"><big><div align="center">Home</div></big></a>
+                    <a href="https://tutors246.github.io/tutors246/"><big><div align="center">Home</div></big></a>
                     </li>
                     <li>
                     <a href="#"><big><div align="center">About</div></big></a>
@@ -91,16 +91,16 @@
 
               <div align="center"> <h3>Overview</h3>
 
-              <p>
+              <br>
               Our tutoring process begins with an assessment test in the area in which you wish to be tutored. 
               The test assists in assessing your skills and understanding level to allow us to better cater our 
               tutoring at a pace and with a focus on the area in which you need to build your knowledge.
-              <p>
+              
               We then offer progress tests to evaluate your progress and better prepare you for the exam. We also 
               offer mock examinations, which are timed to the actual examination to better prepare you for 
               success on your examination day.</div>
 				  </p>              
-              </p>
+              
 
               <div align="center"> <a href="https://docs.google.com/forms/d/1CPaKXXYCypoXHfGQSEA1okqVqzEYCQHPnzWNFq19FUg/prefill">
 				  <img border="0" alt="W3Schools" src="img/icon_tutor.png">

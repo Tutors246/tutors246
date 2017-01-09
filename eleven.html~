@@ -44,7 +44,7 @@
                     <img src="img\logo.png.png" alt="">
                     </li>
 						  <li>
-                    <a href="#index.html"><big><div align="center">Home</div></big></a>
+                    <a href="https://tutors246.github.io/tutors246/"><big><div align="center">Home</div></big></a>
                     </li>
                     <li>
                     <a href="#"><big><div align="center">About</div></big></a>
@@ -86,12 +86,11 @@
 
             <div class="col-md-4">
 				<div align="center"><h3><strong>Homework Tutoring</strong></h3></div>
-				
-					
-				<div align="center"><br><p> Do you have a homework assignment to submit? </p>
-				<p> Are you having difficulty with the questions or problems? </p>
-				<p> We can help you solve the problem or provide guidance? </p>
-				<p> Just schedule a skype appointment for step-by-step guidance?</p>
+				<div align="center"><img src="img/peer-tutoring-FAQ.jpg"></div>
+				<div align="center"><br> Do you have a homework assignment to submit? 
+				<br>Are you having difficulty with the questions or problems? 
+				<br>We can help you solve the problem or provide guidance? 
+				<br>Just schedule a skype appointment for step-by-step guidance?
 				</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
