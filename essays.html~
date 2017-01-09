@@ -69,7 +69,7 @@
         <div class="row">
 
               <br clear="all"> <h3 class="page-header">
-               <img src="img/icon-tutoring-english.png" alt="lign="left" width="75" height="75">
+               <img src="img/img-content-1.png" alt="lign="left" width="75" height="75">
                    <medium>Essay Writing Service</medium>
                 </h3>
                 
@@ -80,18 +80,19 @@
         <div class="row">
 
             <div class="col-md-8">
-				<iframe width="750" height="400" src="https://www.youtube.com/embed/4hwt9EJiJSY" frameborder="0" allowfullscreen></iframe>
+				<iframe width="750" height="400" src="https://www.youtube.com/embed/4hwt9EJiJSY" frameborder="0" allowfullscreen>
+				</iframe>
             </div>
 
-            <div class="col-md-4">
+           
 				<div align="center"><h3 class="page-header">
 				<strong>Essay Writing Service</strong></h3></div>
 				<div align="center">
 				<img src="img/blue-btn.png">
-				<img src="img/images (1).jpg">
+				<img src="img/images.jpg">
 				<img src="img/green-btn.png">
 				</div>
-				</div>
+			
 				
 <div align="center">	At tutors246 our essay writing service guarantees top grades with a  high quality essay or term paper  that adheres to the particular referencing style you require. We can: <br>(1) Research the topic <br>(2)Type you essay <br>(3)Edit your Essay <br>(4)We also use turnitin essay checker to ensure your essay is 100% plagiarism free!</div>
 							 
@@ -117,7 +118,7 @@
 		      <div class="col-sm-3 col-xs-6">
                 <a href="#"> </a>
 <div align="center">                    <h3>APA Style</h3></div>
-<div align="center">    				<img src="img/icon-apa-style.png"></div>
+<div align="center">    				<img src="img/owl.jpg"></div>
    
             <p>
 				<div align="center">Used mainly in the social sciences, APA Style is the general format for research papers, 
@@ -140,16 +141,16 @@ The notes and bibliography style is preferred by many in the humanities, includi
 
             <div class="col-sm-3 col-xs-6">
 	         <h3>MLA Style</h3>
-				<img src="img/mla_handbook.png" alt="">
+				<img src="img/owl.jpg">
 				<p>
-					 <br>MLA (Modern Language Association) style is most commonly used to write papers and cite sources within the liberal arts and humanities. MLA has turned to a style of documentation that is based on a general method that may be applied to every possible source, to many different types of writing.When deciding how to cite your source, start by consulting the list of core elements. These are the general pieces of information that MLA suggests including in each Works Cited entry. 
+					 <br clear="all">MLA (Modern Language Association) style is most commonly used to write papers and cite sources within the liberal arts and humanities. MLA has turned to a style of documentation that is based on a general method that may be applied to every possible source, to many different types of writing.When deciding how to cite your source, start by consulting the list of core elements. These are the general pieces of information that MLA suggests including in each Works Cited entry. 
 					 <br clear="all"><a href="https://owl.english.purdue.edu/owl/resource/747/01/"> <br clear="all">See more </a>
             </p>
             </div>
             
             <div class="col-sm-3 col-xs-6">
                <h3>OSCOLA Style</h3>
-               <img src="img/41veoJ9E4AL._SY344_BO1,204,203,200_.jpg" alt="">
+               <img src="img/scale-310471_640.png" alt="">
 					<p>
 					<br>There are two golden rules for the citation of legal authorities. One is consistency.
 The other is consideration for the reader. Legal writing is more persuasive when the
