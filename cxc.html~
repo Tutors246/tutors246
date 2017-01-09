@@ -87,7 +87,7 @@
             </div>
 
 
-             <div align="center"> <h3>Overview</h3>
+              <div align="center"> <h3>Overview</h3>
 
               <p>
               Our tutoring process begins with an assessment test in the area in which you wish to be tutored. 
@@ -100,81 +100,61 @@
 				  </p>              
               </p>
 
-                 <div align="center"> <a href="https://docs.google.com/forms/d/1CPaKXXYCypoXHfGQSEA1okqVqzEYCQHPnzWNFq19FUg/prefill">
-						<img border="0" alt="W3Schools" src="img/icon_tutor.png">
-						</a> </div>
+              <div align="center"> <a href="https://docs.google.com/forms/d/1CPaKXXYCypoXHfGQSEA1okqVqzEYCQHPnzWNFq19FUg/prefill">
+				  <img border="0" alt="W3Schools" src="img/icon_tutor.png">
+				  </a> </div>
 
 
         </div>
         <!-- /.row -->
 
         <!-- Tutoring Subjects and Topics -->
-        <div class="col-lg-12">
-                <h3 class="page-header">Tutoring Subjects and Topics</h3>
-            </div>
-       <!--jQuery cdn -->
-<script
-			  src="https://code.jquery.com/jquery-2.2.4.min.js"
-			  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-			  crossorigin="anonymous"></script>
-<!--jQuery cdn end of code-->
-<div class="slider">
-			<ul>
-				<li class="current">
-					<div class="picture">
-						<span class='img color1'>Slide 1</span>
-					</div>
-					<div class="text">
-						<p>English A</p>
-			<br><STRONG> Understanding </STRONG> 
-				<BR>(a) understand meaning conveyed in reading, through word choice, grammar, punctuation and paragraphing, and to obtain information accurately; 
+                      <h3>Tutoring Subjects and Topics</h3>
+           
+		<div class="slider">
+	  <div class="arrows">
+	    <a class="previous" href="#">&#xf053;</a>
+	    <a class="next" href="#">&#xf054;</a>
+	  </div>
+	  <div class="slides">
+			<div class="slide active blue" data-icon="&#xf0ac;">
+				<h2>English A</h2>
+				<p><STRONG> Understanding </STRONG> 
+				<BR>(a) understand meaning conveyed in reading, through word choice, grammar, punctuation and paragraphing, and to obtain  information accurately; 
 				<BR>(b) grasp insights from reading literature; 
 				<BR>(c) evaluate opinions expressed in various forms. 
 				  <BR><BR><STRONG>Expression </STRONG>
 				<BR>(a) communicate factual information clearly, concisely, and adequately in giving written instructions, reports, summaries, and expositions in appropriate language; 
 				<BR>(b) give aesthetic satisfaction to others in personal, creative and imaginative language; 
 				<BR>(c) communicate personal opinion clearly and cogently in language which persuades or dissuades effectively.
-					</div>
-				</li>
-				<li>
-					<div class="picture">
-            <span class='img color2'><strong>Geography</strong></span>
-					</div>
-					<div class="text">
-						<p>Geography</p>
-						<br>Practical skills (PS) 
+					</p>
+			</div>
+			<div class="slide white" data-icon="&#xf0f3;">
+				<h2>Geography</h2>
+				<p><br>Practical skills (PS) 
 				<BR>Map Reading and Field Study 
 				<BR>Knowledge Comprehension (KC) 
 				<BR>Natural Systems 
 				<BR>Use of Knowledge (UK) 
 				<BR>Human Systems 
-				<BR>Human-Environment Systems.
-				
-				<BR><BR>The examination is offered at the General Proficiency level. The assessment comprises three papers, Paper 01, Paper 02 and Paper 03/1 OR Paper 03/2.Papers 01 and 02 are assessed externally. Paper 03/1 is a school based assessment and is assessed internally by the teacher and moderated by CXC.
-				 </p> 
-								</div>
-				</li>
-				<li>
-					<div class="picture">
-						<span class='img color3'>History</span>
-					</div>
-					<div class="text">
-						<p>Slide3</p>
-						<p><br><strong> History </strong>
-				<br>The Indigenous Peoples and the European, Caribbean Economy and Slavery,Resistance and Revolt 
-              <br><strong>Section B </strong>
-				<br>Metropolitan Movements towards Emancipation, Adjustments to Emancipation, 1838 - 1876, Caribbean Economy, 1875 - 1985 
-				     <br><strong>Section C </strong>
-				<br>The United States in the Caribbean, 1776 - 1985, Caribbean Political Development up to 1985, Caribbean Society 1900 - 1985</p> 
+				<BR>Human-Environment Systems</p>
 				</div>
-				</li>
-				<li>
-					<div class="picture">
-						<span class='img color4'>Slide 4</span>
-					</div>
-					<div class="text">
-						<p>Mathematics</p>
-						<p><br> The examination will consist of two papers: Paper 01, an objective type paper based on the Core Objectives and Paper 02, an essay or problem solving type paper based on both the Core and Optional Objectives.
+			<div class="slide red" data-icon="&#xf013;">
+				<h2>History</h2>
+				<p><br><strong>Section A </strong>
+<br>The Indigenous Peoples and the European <br>Caribbean Economy and Slavery
+<br>Resistance and Revolt 
+<br><strong>Section B </strong>
+<br>Metropolitan Movements towards Emancipation
+<br>Adjustments to Emancipation, 1838 - 1876, Caribbean Economy, 1875 - 1985 
+<br><strong>Section C </strong>
+<br>The United States in the Caribbean, 1776 - 1985
+<br>Caribbean Political Development up to 1985, Caribbean Society 1900 - 1985</p>
+				</div>
+          
+          <div class="slide white" data-icon="&#xf0f3;">
+				<h2>Mathematics</h2>
+				<p><br> The examination will consist of two papers: Paper 01, an objective type paper based on the Core Objectives and Paper 02, an essay or problem solving type paper based on both the Core and Optional Objectives.
 				<br><br>Computation 
 				<br>Number Theory 
 				<br>Consumer Arithmetic 
@@ -184,63 +164,58 @@
 				<br>Algebra 
 				<br>Relations, Functions and Graphs 
 				<br>Geometry and Trigonometry</p>
-					</div>
-				</li>
-				<li>
-					<div class="picture">
-						<span class='img color5'>Slide 5</span>
-					</div>
-					<div class="text">
-						<p>Office Procedures</p>
-						<p><br><br> OFFICE ORIENTATION 
-				<br>COMMUNICATION 
-				<br>RECRUITMENT AND ORIENTATION 
-				<br>RECORDS AND INFORMATION MANAGEMENT 
-				<br>RECEPTION AND HOSPITALITY 
-				<br>MEETINGS 
-				<br>TRAVEL ARRANGEMENTS 
-				<br>HUMAN RESOURCES MANAGEMENT 
-				<br>ACCOUNTS AND FINANCIAL SERVICES 
-				<br>PROCUREMENT AND INVENTORY MANAGEMENT 
-				<br>SALES, MARKETING AND CUSTOMER SERVICE 
-				<br>OPERATIONS, DESPATCH AND TRANSPORT SERVICES</p> 
-					
-					</div>
-          
-          <div class="text">
-						<p>Slide3</p>
-						<p><br><strong> Priciples of Business </strong>
-				 <br><br>SECTION 1 - THE NATURE OF BUSINESS 
-				<br>SECTION 2 - INTERNAL ORGANIZATIONAL ENVIRONMENT 
-				<br>SECTION 3 - ESTABLISHING A BUSINESS 
-				<br>SECTION 4 - LEGAL ASPECTS OF BUSINESS 
-				<br>SECTION 5 - PRODUCTION 
-				<br>SECTION 6 - MARKETING 
-				<br>SECTION 7 - BUSINESS FINANCE 
-				<br>SECTION 8 - ROLE OF GOVERNMENT IN AN ECONOMY 
-				<br>SECTION 9 - SOCIAL ACCOUNTING AND GLOBAL TRADE 
-				<br>SECTION 10 - REGIONAL AND GLOBAL BUSINESS ENVIRONMENT</p> 
 				</div>
-          <div class="text">
-						<p>Slide3</p>
-						<p><br><strong> Social Studies </strong>
-				 <br><br>Section A- Individual, Family and Society
-				<br>Section B - Sustainable Development and Use of Resources 
+          
+          <div class="slide white" data-icon="&#xf0f3;">
+				<h2>Office Procedures</h2>
+				<p><br> Office Orientation 
+				<br>Communication
+				<br>Recruitment and Orientation 
+				<br>Records and Information Management 
+				<br>Reception and Hospitality 
+				<br>Meetings
+				<br>Travel Arrangements 
+				<br>Human Resources Management 
+				<br>Accounts and Financial Services 
+				<br>Procurement and Inventory Management 
+				<br>Sales, Marketing and Customer Service 
+				<br>Operations, Despatch and Transport Services</p>
+				</div>
+          
+          <div class="slide white" data-icon="&#xf0f3;">
+				<h2>Principles of Business</h2>
+<p><br>Section 1 - The Nature of Business 
+<br>Section 2 - Internal Organizational Environment 
+<br>Section 3 - Establishing a Business 
+<br>Section 4 - Legal Aspects of Business 
+<br>Section 5 - Production
+<br>Section 6 - Marketing 
+<br>Section 7 - Business Finance
+<br>Section 8- Role of Government in an Economy 
+<br>Section 9 - Social Accounting and Global Trade
+<br>Section 10 - Regional and Global Business Environment</p>
+				</div>
+          
+          <div class="slide white" data-icon="&#xf0f3;">
+				<h2>Social Studies</h2>
+<p><strong><br>Section A- Individual, Family and Society</strong>
+<strong>				<br>Section B - Sustainable Development and Use of Resources </strong>
 				<br>(i) Development and Use of Resources 
 				<br>(ii) Regional Integration
-				<br>Section C - Options
+<strong>				<br>Section C - Options</strong>
 				<br>C1 - Communication 
 				<br>C2 - Consumer Affairs 
-				<br>C3 - Tourism</p> 
+				<br>C3 - Tourism</p>
 				</div>
-				</li>
-			</ul>
 		</div>
+		<div class="bullets">
+		</div>
+	</div>
         <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p><br>Copyright &copy; Tutors246 2017</p>
                 </div>
             </div>
             <!-- /.row -->
