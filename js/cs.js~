@@ -1,0 +1,14 @@
+$('.text-slider').cycle({
+  speed: 400,
+  slides: '> .item',
+  fx: 'none'
+});
+
+
+$('.text-slider').on('cycle-before', function(event, optionHash, outgoingSlideEl, incomingSlideEl, forwardFlag){
+  $(outgoingSlideEl).removeClass('active').addClass('hidden');
+});
+
+$('.text-slider').on('cycle-after', function(event, optionHash, outgoingSlideEl, incomingSlideEl, forwardFlag){
+  $(incomingSlideEl).removeClass('hidden').addClass('active');
+});
