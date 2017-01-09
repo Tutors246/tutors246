@@ -91,7 +91,6 @@
 
               <div align="center"> <h3>Overview</h3>
 
-              <br>
               Our tutoring process begins with an assessment test in the area in which you wish to be tutored. 
               The test assists in assessing your skills and understanding level to allow us to better cater our 
               tutoring at a pace and with a focus on the area in which you need to build your knowledge.
@@ -111,39 +110,56 @@
         <!-- /.row -->
 
         <!-- Tutoring Subjects and Topics -->
-                      <h3>Tutoring Subjects and Topics</h3>
+    <br clear="all"><div id="workexperience" class="sectionClass">
+  <div class="row ">
+    <div class="sectiontitle">
+      <h2>Tutoring Subjects and Topics</h2>
+      <span class="headerLine"></span>
+    </div>
+    <div class="fullWidth eight columns">
+      <ul class="cbp_tmtimeline">
+        <li>
+          <div class="cbp_tmicon cbp_tmicon-phone">
+            <i class="faPra fa-briefcase"></i>
+          </div>
+          <div class="cbp_tmlabel wow fadeInRight animated">
+            <h3>English A</h3>
+            <p class="projectParagraph">
+            <p><STRONG> Understanding </STRONG> 
+<br>(a) understand meaning conveyed in reading, through word choice, grammar, punctuation and paragraphing, and to obtain  information accurately; 
+<br>(b) grasp insights from reading literature; 
+<br>(c) evaluate opinions expressed in various forms. 
+<br><br><STRONG>Expression </STRONG>
+<br>(a) communicate factual information clearly, concisely, and adequately in giving written instructions, reports, summaries, and expositions in appropriate language; 
+<br>(b) give aesthetic satisfaction to others in personal, creative and imaginative language; 
+<br>(c) communicate personal opinion clearly and cogently in language which persuades or dissuades effectively.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="cbp_tmicon cbp_tmicon-screen">
+            <i class="faPra fa-briefcase"></i>
+          </div>
+          <div class="cbp_tmlabel wow fadeInRight animated">
+            <h3>Geography</h3>
            
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="slider">
-	  <div class="arrows">
-	    <a class="previous" href="#">&#xf053;</a>
-	    <a class="next" href="#">&#xf054;</a>
-	  </div>
-	  <div class="slides">
-			<div class="slide active blue" data-icon="&#xf0ac;">
-				<h2>English A</h2>
-				<p><STRONG> Understanding </STRONG> 
-				<BR>(a) understand meaning conveyed in reading, through word choice, grammar, punctuation and paragraphing, and to obtain  information accurately; 
-				<BR>(b) grasp insights from reading literature; 
-				<BR>(c) evaluate opinions expressed in various forms. 
-				  <BR><BR><STRONG>Expression </STRONG>
-				<BR>(a) communicate factual information clearly, concisely, and adequately in giving written instructions, reports, summaries, and expositions in appropriate language; 
-				<BR>(b) give aesthetic satisfaction to others in personal, creative and imaginative language; 
-				<BR>(c) communicate personal opinion clearly and cogently in language which persuades or dissuades effectively.
-					</p>
-			</div>
-			<div class="slide white" data-icon="&#xf0f3;">
-				<h2>Geography</h2>
-				<p><br>Practical skills (PS) 
-				<BR>Map Reading and Field Study 
-				<BR>Knowledge Comprehension (KC) 
-				<BR>Natural Systems 
-				<BR>Use of Knowledge (UK) 
-				<BR>Human Systems 
-				<BR>Human-Environment Systems</p>
-				</div>
-			<div class="slide red" data-icon="&#xf013;">
-				<h2>History</h2>
-				<p><br><strong>Section A </strong>
+            <p class="projectParagraph">               Practical skills (PS) 
+				<br>Map Reading and Field Study 
+				<br>Knowledge Comprehension (KC) 
+				<br>Natural Systems 
+				<br>Use of Knowledge (UK) 
+				<br>Human Systems 
+				<br>Human-Environment Systems</p>
+          </div>
+        </li>
+        <li>
+          <div class="cbp_tmicon cbp_tmicon-mail">
+            <i class="faPra fa-briefcase"></i>
+          </div>
+          <div class="cbp_tmlabel wow fadeInRight animated">
+            <h3>History</h3>
+ <p class="projectParagraph">
+            <strong>Section A </strong>
 <br>The Indigenous Peoples and the European <br>Caribbean Economy and Slavery
 <br>Resistance and Revolt 
 <br><strong>Section B </strong>
@@ -151,12 +167,19 @@
 <br>Adjustments to Emancipation, 1838 - 1876, Caribbean Economy, 1875 - 1985 
 <br><strong>Section C </strong>
 <br>The United States in the Caribbean, 1776 - 1985
-<br>Caribbean Political Development up to 1985, Caribbean Society 1900 - 1985</p>
-				</div>
-          
-          <div class="slide white" data-icon="&#xf0f3;">
-				<h2>Mathematics</h2>
-				<p><br> The examination will consist of two papers: Paper 01, an objective type paper based on the Core Objectives and Paper 02, an essay or problem solving type paper based on both the Core and Optional Objectives.
+<br>Caribbean Political Development up to 1985, Caribbean Society 1900 - 1985
+            </p>
+
+          </div>
+        </li>
+        <li>
+          <div class="cbp_tmicon cbp_tmicon-phone">
+            <i class="faPra fa-briefcase"></i>
+          </div>
+          <div class="cbp_tmlabel wow fadeInRight animated">
+            <h3>Mathematics</h3>
+            
+            <p class="projectParagraph"> The examination will consist of two papers: Paper 01, an objective type paper based on the Core Objectives and Paper 02, an essay or problem solving type paper based on both the Core and Optional Objectives.
 				<br><br>Computation 
 				<br>Number Theory 
 				<br>Consumer Arithmetic 
@@ -166,11 +189,26 @@
 				<br>Algebra 
 				<br>Relations, Functions and Graphs 
 				<br>Geometry and Trigonometry</p>
-				</div>
-          
-          <div class="slide white" data-icon="&#xf0f3;">
-				<h2>Office Procedures</h2>
-				<p><br> Office Orientation 
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!------------------------------------------>
+   <span class="headerLine"></span>
+    </div>
+    <div class="fullWidth eight columns">
+      <ul class="cbp_tmtimeline">
+        <li>
+          <div class="cbp_tmicon cbp_tmicon-phone">
+            <i class="faPra fa-briefcase"></i>
+          </div>
+          <div class="cbp_tmlabel wow fadeInRight animated">
+            <h3>Office Procedures</h3>
+            <p class="projectParagraph">
+            <br> Office Orientation 
 				<br>Communication
 				<br>Recruitment and Orientation 
 				<br>Records and Information Management 
@@ -181,12 +219,18 @@
 				<br>Accounts and Financial Services 
 				<br>Procurement and Inventory Management 
 				<br>Sales, Marketing and Customer Service 
-				<br>Operations, Despatch and Transport Services</p>
-				</div>
-          
-          <div class="slide white" data-icon="&#xf0f3;">
-				<h2>Principles of Business</h2>
-<p><br>Section 1 - The Nature of Business 
+				<br>Operations, Despatch and Transport Services
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="cbp_tmicon cbp_tmicon-screen">
+            <i class="faPra fa-briefcase"></i>
+          </div>
+          <div class="cbp_tmlabel wow fadeInRight animated">
+            <h3>Principles of Business</h3>
+           
+            <p class="projectParagraph">              Section 1 - The Nature of Business 
 <br>Section 2 - Internal Organizational Environment 
 <br>Section 3 - Establishing a Business 
 <br>Section 4 - Legal Aspects of Business 
@@ -196,23 +240,47 @@
 <br>Section 8- Role of Government in an Economy 
 <br>Section 9 - Social Accounting and Global Trade
 <br>Section 10 - Regional and Global Business Environment</p>
-				</div>
-          
-          <div class="slide white" data-icon="&#xf0f3;">
-				<h2>Social Studies</h2>
-<p><strong><br>Section A- Individual, Family and Society</strong>
+          </div>
+        </li>
+        <li>
+          <div class="cbp_tmicon cbp_tmicon-mail">
+            <i class="faPra fa-briefcase"></i>
+          </div>
+          <div class="cbp_tmlabel wow fadeInRight animated">
+            <h3>Social Studies</h3>
+ <p class="projectParagraph">
+            Section A- Individual, Family and Society</strong>
 <strong>				<br>Section B - Sustainable Development and Use of Resources </strong>
 				<br>(i) Development and Use of Resources 
 				<br>(ii) Regional Integration
 <strong>				<br>Section C - Options</strong>
 				<br>C1 - Communication 
 				<br>C2 - Consumer Affairs 
-				<br>C3 - Tourism</p>
-				</div>
-		</div>
-		<div class="bullets">
-		</div>
-	</div>
+				<br>C3 - Tourism
+            </p>
+
+          </div>
+        </li>
+        <li>
+          <div class="cbp_tmicon cbp_tmicon-phone">
+            <i class="faPra fa-briefcase"></i>
+          </div>
+       
+
+  <div class="cbp_tmlabel wow fadeInRight animated">
+            <h3>SBA Assistance</h3>
+ <p class="projectParagraph">
+            We can provide help with your School Based Assessment, just give us a call to discuss your requirements and subject!
+            </p>
+
+          </div>
+        </li>
+        <li>
+          <div class="cbp_tmicon cbp_tmicon-phone">
+            <i class="faPra fa-briefcase"></i>
+          </div>
+
+
         <!-- Footer -->
         <footer>
             <div class="row">
