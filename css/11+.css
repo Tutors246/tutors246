@@ -17,3 +17,10 @@ h1 {
 .submit-button {
   margin-top: 10px;
 }
+
+<video controls> 
+   <source src="parrots-small.mp4" type="video/mp4" media="all and (max-width:480px)"> 
+   <source src="parrots-small.webm" type="video/webm" media="all and (max-width:480px)"> 
+   <source src="parrots.mp4" type="video/mp4"> 
+   <source src="parrots.webm" type="video/webm"> 
+</video>
