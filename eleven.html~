@@ -81,13 +81,14 @@
         <div class="row">
 
             <div class="col-md-8">
-				<iframe width="750" height="400" src="https://www.youtube.com/embed/4hwt9EJiJSY" frameborder="0" allowfullscreen></iframe>
+				<iframe width="750" height="400" src="https://www.youtube.com/embed/4hwt9EJiJSY" frameborder="0" allowfullscreen>
+				</iframe>
             </div>
 
             <div class="col-md-4">
 				<div align="center"><h3><strong>Homework Tutoring</strong></h3></div>
 				<div align="center"><img src="img/peer-tutoring-FAQ.jpg"></div>
-				<div align="center"><br> Do you have a homework assignment to submit? 
+				<div align="center">Do you have a homework assignment to submit? 
 				<br>Are you having difficulty with the questions or problems? 
 				<br>We can help you solve the problem or provide guidance? 
 				<br>Just schedule a skype appointment for step-by-step guidance?

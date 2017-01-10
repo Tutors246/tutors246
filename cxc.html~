@@ -110,22 +110,29 @@
         <!-- /.row -->
 
         <!-- Tutoring Subjects and Topics -->
-    <br clear="all"><div id="workexperience" class="sectionClass">
-  <div class="row ">
-    <div class="sectiontitle">
-      <h2>Tutoring Subjects and Topics</h2>
-      <span class="headerLine"></span>
-    </div>
-    <div class="fullWidth eight columns">
-      <ul class="cbp_tmtimeline">
-        <li>
-          <div class="cbp_tmicon cbp_tmicon-phone">
-            <i class="faPra fa-briefcase"></i>
+        <h3> Tutoring Subjects and Topics </h3>
+   <div class="cardWrapper">
+  <div class="cardFrame">
+    <div class="card-container" onclick="window.location='#'">
+      <div class="card">
+        <div class="front">
+          <div class="cover"><img src="" /></div>
+          <div class="user"><i class="fa fa-cogs">&nbsp;</i>
+            <!--<img class="img-circle" src=""/> --></div>
+          <div class="content">
+            <div class="main">
+<h3 class="butHeading">English A</h3>
+              <p class="butText">We provide comprehensive coverage for the CXC English A examination which adheres to the syllabus and past papers.</p>
+             </div>
           </div>
-          <div class="cbp_tmlabel wow fadeInRight animated">
-            <h3>English A</h3>
-            <p class="projectParagraph">
-            <p><STRONG> Understanding </STRONG> 
+        </div>
+        <!-- end front panel -->
+        <div class="back">
+         
+          <div class="content">
+            <div class="main">
+             
+              <p class="butText"><STRONG> Understanding </STRONG> 
 <br>(a) understand meaning conveyed in reading, through word choice, grammar, punctuation and paragraphing, and to obtain  information accurately; 
 <br>(b) grasp insights from reading literature; 
 <br>(c) evaluate opinions expressed in various forms. 
@@ -133,33 +140,70 @@
 <br>(a) communicate factual information clearly, concisely, and adequately in giving written instructions, reports, summaries, and expositions in appropriate language; 
 <br>(b) give aesthetic satisfaction to others in personal, creative and imaginative language; 
 <br>(c) communicate personal opinion clearly and cogently in language which persuades or dissuades effectively.
-            </p>
+            </p></p>
+             </div>
           </div>
-        </li>
-        <li>
-          <div class="cbp_tmicon cbp_tmicon-screen">
-            <i class="faPra fa-briefcase"></i>
+        </div>
+        <!-- end back panel -->
+      </div>
+      <!-- end card -->
+    </div>
+    <!-- end card-container -->
+  </div>
+  <!-- end cardFrame -->
+  <div class="cardFrame">
+    <div class="card-container" onclick="window.location='#'">
+      <div class="card">
+        <div class="front">
+          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
+          <div class="user"><i class="fa fa-info-circle">&nbsp;</i>
+            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
+          <div class="content">
+            <div class="main">
+              <h3 class="butHeading">Geography</h3>
+              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <a class="butRead">Click Here</a></div>
           </div>
-          <div class="cbp_tmlabel wow fadeInRight animated">
-            <h3>Geography</h3>
-           
-            <p class="projectParagraph">               Practical skills (PS) 
-				<br>Map Reading and Field Study 
-				<br>Knowledge Comprehension (KC) 
-				<br>Natural Systems 
-				<br>Use of Knowledge (UK) 
-				<br>Human Systems 
-				<br>Human-Environment Systems</p>
+        </div>
+        <!-- end front panel -->
+        <div class="back">
+                    <div class="content">
+            <div class="main">
+<p class="butText">
+              
+              </p>
+              </div>
           </div>
-        </li>
-        <li>
-          <div class="cbp_tmicon cbp_tmicon-mail">
-            <i class="faPra fa-briefcase"></i>
+        </div>
+        <!-- end back panel -->
+      </div>
+      <!-- end card -->
+    </div>
+    <!-- end card-container -->
+  </div>
+  <!-- end cardFrame -->
+  <div class="cardFrame">
+    <div class="card-container" onclick="window.location='#'">
+      <div class="card">
+        <div class="front">
+       
+          <div class="user"><i class="fa fa-image">&nbsp;</i>
+            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
+          <div class="content">
+            <div class="main">
+              <h3 class="butHeading">History</h3>
+              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <a class="butRead">Click Here</a></div>
           </div>
-          <div class="cbp_tmlabel wow fadeInRight animated">
-            <h3>History</h3>
- <p class="projectParagraph">
-            <strong>Section A </strong>
+        </div>
+        <!-- end front panel -->
+        <div class="back">
+          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
+          <div class="user"><i class="fa fa-image">&nbsp;</i>
+            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
+          <div class="content">
+            <div class="main">
+                           <p class="butText"><strong>Section A </strong>
 <br>The Indigenous Peoples and the European <br>Caribbean Economy and Slavery
 <br>Resistance and Revolt 
 <br><strong>Section B </strong>
@@ -167,70 +211,111 @@
 <br>Adjustments to Emancipation, 1838 - 1876, Caribbean Economy, 1875 - 1985 
 <br><strong>Section C </strong>
 <br>The United States in the Caribbean, 1776 - 1985
-<br>Caribbean Political Development up to 1985, Caribbean Society 1900 - 1985
-            </p>
-
+<br>Caribbean Political Development up to 1985, Caribbean Society 1900 - 1985</p>
+             </div>
           </div>
-        </li>
-        <li>
-          <div class="cbp_tmicon cbp_tmicon-phone">
-            <i class="faPra fa-briefcase"></i>
-          </div>
-          <div class="cbp_tmlabel wow fadeInRight animated">
-            <h3>Mathematics</h3>
-            
-            <p class="projectParagraph"> The examination will consist of two papers: Paper 01, an objective type paper based on the Core Objectives and Paper 02, an essay or problem solving type paper based on both the Core and Optional Objectives.
-				<br><br>Computation 
-				<br>Number Theory 
-				<br>Consumer Arithmetic 
-				<br>Sets 
-				<br>Measurement 
-				<br>Statistics 
-				<br>Algebra 
-				<br>Relations, Functions and Graphs 
-				<br>Geometry and Trigonometry</p>
-          </div>
-        </li>
-      </ul>
+        </div>
+        <!-- end back panel -->
+      </div>
+      <!-- end card -->
     </div>
+    <!-- end card-container -->
   </div>
-</div>
+  <!-- end cardFrame -->
+  <div class="cardFrame">
+    <div class="card-container" onclick="window.location='#'">
+      <div class="card">
+        <div class="front">
+          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
+          <div class="user"><i class="fa fa-users">&nbsp;</i>
+            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
+          <div class="content">
+            <div class="main">
+              <h3 class="butHeading">Mathematics</h3>
+              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <a class="butRead">Click Here</a></div>
+          </div>
+        </div>
+        <!-- end front panel -->
+        <div class="back">
+          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
+          <div class="user"><i class="fa fa-users">&nbsp;</i>
+            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
+          <div class="content">
+            <div class="main">
 
-<!------------------------------------------>
-   <span class="headerLine"></span>
+              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+
+          </div>
+        </div>
+        <!-- end back panel -->
+      </div>
+      <!-- end card -->
     </div>
-    <div class="fullWidth eight columns">
-      <ul class="cbp_tmtimeline">
-        <li>
-          <div class="cbp_tmicon cbp_tmicon-phone">
-            <i class="faPra fa-briefcase"></i>
+    <!-- end card-container -->
+  </div>
+  <!-- end cardFrame -->
+</div>
+<!-- end cardWrapper -->
+
+
+
+<div class="cardWrapper">
+  <div class="cardFrame">
+    <div class="card-container" onclick="window.location='#'">
+      <div class="card">
+        <div class="front">
+          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
+          <div class="user"><i class="fa fa-cogs">&nbsp;</i>
+            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
+          <div class="content">
+            <div class="main">
+              <h3 class="butHeading">Office Procedures</h3>
+              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
           </div>
-          <div class="cbp_tmlabel wow fadeInRight animated">
-            <h3>Office Procedures</h3>
-            <p class="projectParagraph">
-            <br> Office Orientation 
-				<br>Communication
-				<br>Recruitment and Orientation 
-				<br>Records and Information Management 
-				<br>Reception and Hospitality 
-				<br>Meetings
-				<br>Travel Arrangements 
-				<br>Human Resources Management 
-				<br>Accounts and Financial Services 
-				<br>Procurement and Inventory Management 
-				<br>Sales, Marketing and Customer Service 
-				<br>Operations, Despatch and Transport Services
-            </p>
+        </div>
+        <!-- end front panel -->
+        <div class="back">
+          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
+          <div class="user"><i class="fa fa-cogs">&nbsp;</i>
+            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
+          <div class="content">
+            <div class="main">
+              <h3 class="butHeading">Heading</h3>
+              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+             </div>
           </div>
-        </li>
-        <li>
-          <div class="cbp_tmicon cbp_tmicon-screen">
-            <i class="faPra fa-briefcase"></i>
+        </div>
+        <!-- end back panel -->
+      </div>
+      <!-- end card -->
+    </div>
+    <!-- end card-container -->
+  </div>
+  <!-- end cardFrame -->
+  <div class="cardFrame">
+    <div class="card-container" onclick="window.location='#'">
+      <div class="card">
+        <div class="front">
+          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
+          <div class="user"><i class="fa fa-info-circle">&nbsp;</i>
+            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
+          <div class="content">
+            <div class="main">
+              <h3 class="butHeading">Principles of Business</h3>
+              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
           </div>
-          <div class="cbp_tmlabel wow fadeInRight animated">
-            <h3>Principles of Business</h3>
-           
-            <p class="projectParagraph">              Section 1 - The Nature of Business 
+          </div>
+        </div>
+        <!-- end front panel -->
+        <div class="back">
+                 <div class="user"><i class="fa fa-info-circle">&nbsp;</i>
+            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
+          <div class="content">
+            <div class="main">
+             
+              <p class="butText">Section 1 - The Nature of Business 
 <br>Section 2 - Internal Organizational Environment 
 <br>Section 3 - Establishing a Business 
 <br>Section 4 - Legal Aspects of Business 
@@ -240,46 +325,90 @@
 <br>Section 8- Role of Government in an Economy 
 <br>Section 9 - Social Accounting and Global Trade
 <br>Section 10 - Regional and Global Business Environment</p>
+</div>
           </div>
-        </li>
-        <li>
-          <div class="cbp_tmicon cbp_tmicon-mail">
-            <i class="faPra fa-briefcase"></i>
+        </div>
+        <!-- end back panel -->
+      </div>
+      <!-- end card -->
+    </div>
+    <!-- end card-container -->
+  </div>
+  <!-- end cardFrame -->
+  <div class="cardFrame">
+    <div class="card-container" onclick="window.location='#'">
+      <div class="card">
+        <div class="front">
+          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
+       
+ 
+          
+<div class="user"><i class="fa fa-image">&nbsp;</i>
+            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
+          <div class="content">
+            <div class="main">
+              <h3 class="butHeading">Social Studies</h3>
+              <p class="butText">Although Social Studies may appear at first glance to be an easy CXC subject, you will soon find that it is much more intricate and you would require assistance especially if you opted for the SBA option. </p>
+</div>
           </div>
-          <div class="cbp_tmlabel wow fadeInRight animated">
-            <h3>Social Studies</h3>
- <p class="projectParagraph">
-            Section A- Individual, Family and Society</strong>
+        </div>
+        <!-- end front panel -->
+        <div class="back">
+          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
+         
+          <div class="content">
+            <div class="main">
+      <p class="butText">Section A- Individual, Family and Society</strong>
 <strong>				<br>Section B - Sustainable Development and Use of Resources </strong>
 				<br>(i) Development and Use of Resources 
 				<br>(ii) Regional Integration
 <strong>				<br>Section C - Options</strong>
 				<br>C1 - Communication 
 				<br>C2 - Consumer Affairs 
-				<br>C3 - Tourism
-            </p>
-
+				<br>C3 - Tourism</p>
+  </div>
           </div>
-        </li>
-        <li>
-          <div class="cbp_tmicon cbp_tmicon-phone">
-            <i class="faPra fa-briefcase"></i>
+        </div>
+        <!-- end back panel -->
+      </div>
+      <!-- end card -->
+    </div>
+    <!-- end card-container -->
+  </div>
+  <!-- end cardFrame -->
+  <div class="cardFrame">
+    <div class="card-container" onclick="window.location='#'">
+      <div class="card">
+        <div class="front">
+          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
+          <div class="user"><i class="fa fa-users">&nbsp;</i>
+            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
+          <div class="content">
+            <div class="main">
+              <h3 class="butHeading">SBA Assistance</h3>
+              <p class="butText">            We can provide help with your School Based Assessment, just give us a call to discuss your requirements and subject!</p>
           </div>
-       
-
-  <div class="cbp_tmlabel wow fadeInRight animated">
-            <h3>SBA Assistance</h3>
- <p class="projectParagraph">
-            We can provide help with your School Based Assessment, just give us a call to discuss your requirements and subject!
-            </p>
-
           </div>
-        </li>
-        <li>
-          <div class="cbp_tmicon cbp_tmicon-phone">
-            <i class="faPra fa-briefcase"></i>
+        </div>
+        <!-- end front panel -->
+        <div class="back">
+          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
+          <div class="content">
+            <div class="main">
+              <h3 class="butHeading">Heading</h3>
+              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
           </div>
-
+        </div>
+        <!-- end back panel -->
+      </div>
+      <!-- end card -->
+    </div>
+    <!-- end card-container -->
+  </div>
+  <!-- end cardFrame -->
+</div>
+<!-- end cardWrapper -->
 
         <!-- Footer -->
         <footer>

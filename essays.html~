@@ -84,13 +84,15 @@
 				</iframe>
             </div>
 
-           
-				<div align="center"><h3 class="page-header">
-				<strong>Essay Writing Service</strong></h3></div>
+                       <div class="col-md-4">
+				<div align="center"><h3><strong>Essay Writing Service</strong></h3></div>
+				<div align="center"><img src="img/peer-tutoring-FAQ.jpg"></div>
 				<div align="center">
 				<img src="img/blue-btn.png">
 				<img src="img/images.jpg">
 				<img src="img/green-btn.png">
+				</div>
+				</div>
 				</div>
 			
 				
@@ -112,7 +114,7 @@
         <div class="row">
 
             <div class="col-lg-12">
-                <h3 class="page-header">Referening and Citation Styles</h3>
+                <h3 class="page-header">Referencing and Citation Styles</h3>
             </div>
             
 		      <div class="col-sm-3 col-xs-6">
@@ -161,7 +163,7 @@ the argument. The Oxford University Standard for Citation of Legal Authorities
 easier for the reader.
 					
 					</p>
-					<br clear="all"><a href="https://www.law.ox.ac.uk/sites/files/oxlaw/oscola_4th_edn_hart_2012.pdf"> See more </a>
+					<a href="https://www.law.ox.ac.uk/sites/files/oxlaw/oscola_4th_edn_hart_2012.pdf"> See more </a>
             </div>
             </div>
           
