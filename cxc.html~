@@ -116,9 +116,9 @@
     <div class="card-container" onclick="window.location='#'">
       <div class="card">
         <div class="front">
-          <div class="cover"><img src="" /></div>
+          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
           <div class="user"><i class="fa fa-cogs">&nbsp;</i>
-            <!--<img class="img-circle" src=""/> --></div>
+            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
           <div class="content">
             <div class="main">
 <h3 class="butHeading">English A</h3>
@@ -243,9 +243,9 @@
             <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
           <div class="content">
             <div class="main">
-
+              <h3 class="butHeading">SBA Assistance</h3>
               <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-
+              <a class="butRead">Click Here</a></div>
           </div>
         </div>
         <!-- end back panel -->
@@ -272,7 +272,7 @@
             <div class="main">
               <h3 class="butHeading">Office Procedures</h3>
               <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              </div>
+              <a class="butRead">Click Here</a></div>
           </div>
         </div>
         <!-- end front panel -->
@@ -284,7 +284,7 @@
             <div class="main">
               <h3 class="butHeading">Heading</h3>
               <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-             </div>
+              <a class="butRead">Click Here</a></div>
           </div>
         </div>
         <!-- end back panel -->
