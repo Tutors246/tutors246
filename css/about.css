@@ -5,7 +5,7 @@
 
 body {
   height: 100%;
-  background-image: url("img/pic.jpg");
+  background-image: url('.../img/pic.jpg');
   font: 100%/1.5em "Varela Round", sans-serif;
   padding: 50px;
 }
@@ -138,7 +138,7 @@ span {
 .js__target .js__close:after {
   position: relative;
   content: "x";
-  color: #ABABAB;
+  color: #fff;
   width: 25px;
   height: 25px;
   display: block;
@@ -707,7 +707,7 @@ span {
   position: absolute;
   top: 60px;
   padding: 20px;
-  color: #222;
+  color: #000;
   text-align: center;
   overflow-y: auto;
 }
