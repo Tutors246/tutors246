@@ -141,6 +141,12 @@ input::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
+img
+{
+ max-width: 100%;
+ height: auto;
+ margin: 0 0 10px 0;
+}  
 input {
   line-height: normal;
 }
