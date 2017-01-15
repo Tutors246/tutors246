@@ -28,7 +28,9 @@ body {
 }
 
 .img-center {
-    margin: 0 auto;
+    margin: 0 0  10px auto 0;
+    max-width: 100%;
+    height: auto;
 }
 
 footer {
