@@ -82,7 +82,7 @@
 	  <td>Username: &nbsp;<input type="text" name="username" size="15"></td><br clear="all">
      <br><td>Password: <input tpe="password" name'"password" size="15"></td>
 	  <tr>
-	  <br clear="all"><td>Number Concepts:<br>
+	  <br clear="all"><br clear="all"><td><strong>Number Concepts:</strong><br>
 	  
 	  
 	  
