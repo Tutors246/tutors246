@@ -83,13 +83,35 @@
      <br><td>Password: <input tpe="password" name'"password" size="15"></td>
 	  <tr>
 	  <br clear="all"><br clear="all"><td><strong>Number Concepts:</strong><br>
-	  [1] 1409 + 275 + 83 = <br clear="all">
-	     
-	  <input type="checkbox" name="number" value="concepts"> 1608 <br clear="all">
-	  <input type="checkbox" name="number" value="concepts"> 1617 <br clear="all">
-	  <input type="checkbox" name="number" value="concepts"> 1767 <br clear="all">
-	  <input type="checkbox" name="number" value="concepts"> 3589 <br clear="all">
-	  	  	  
+	  <br clear="all">1. 1409 + 275 + 83 = <br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> 1608 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 1617 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 1767 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 3589 <br clear="all">
+	  	 
+    <br clear="all">2. 567-180 = <br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> 387 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 420 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 427 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 647 <br clear="all">
+	  
+	  <br clear="all">3. 525  = <br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> 15 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 105 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 150 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 1005 <br clear="all">
+	  
+	  <br clear="all">4. 650 x 4 = <br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> 2400 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 2420 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 2600 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 4220 <br clear="all">
+	  
+	 
 	  </td>
 	  
 	  
