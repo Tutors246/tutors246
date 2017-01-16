@@ -79,9 +79,10 @@
 
 	  <form name="assessment">
 	  <tr>
-	  <td>Username: <input type="text" name="username" size="15"></td>
+	  <td>Username: &nbsp;<input type="text" name="username" size="15"></td><br clear="all">
      <br><td>Password: <input tpe="password" name'"password" size="15"></td>
-	  
+	  <tr>
+	  <td>
 	  
 	  
 	  
