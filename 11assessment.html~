@@ -79,10 +79,12 @@
 
 	  <form name="assessment">
 	  <tr>
-	  <td>Username: &nbsp;<input type="text" name="username" size="15"></td><br clear="all">
-     <br><td>Password: <input tpe="password" name'"password" size="15"></td>
+	  <td>Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="username" size="15"></td>
+     <br><br><td>Student's Age : <input tpe="password" name'"password" size="15"></td>
+     <br><br><td>Contact #: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input tpe="password" name'"password" size="15"></td>
 	  <tr>
 	  <br clear="all"><br clear="all"><td><strong>Number Concepts:</strong><br>
+	  
 	  <br clear="all">1. 1409 + 275 + 83 = <br clear="all">
 	  <br>  
 	  <input type="radio" name="number" value="concepts"> 1608 <br clear="all">
@@ -90,28 +92,135 @@
 	  <input type="radio" name="number" value="concepts"> 1767 <br clear="all">
 	  <input type="radio" name="number" value="concepts"> 3589 <br clear="all">
 	  	 
-    <br clear="all">2. 567-180 = <br clear="all">
+	  <br clear="all">2. 4000 + 100 = <br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> 3000 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 3900<br clear="all">
+	  <input type="radio" name="number" value="concepts"> 4100 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 5000 <br clear="all">
+	  	 
+	  <br clear="all">3. 2485-154 = <br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> 331 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 945 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 1145 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 2331 <br clear="all">
+	  	 
+     <br clear="all">4. 567-180 = <br clear="all">
 	  <br>  
 	  <input type="radio" name="number" value="concepts"> 387 <br clear="all">
 	  <input type="radio" name="number" value="concepts"> 420 <br clear="all">
 	  <input type="radio" name="number" value="concepts"> 427 <br clear="all">
 	  <input type="radio" name="number" value="concepts"> 647 <br clear="all">
 	  
-	  <br clear="all">3. 525  = <br clear="all">
+	  <br clear="all">5. 525 ÷ 5 = <br clear="all">
 	  <br>  
 	  <input type="radio" name="number" value="concepts"> 15 <br clear="all">
 	  <input type="radio" name="number" value="concepts"> 105 <br clear="all">
 	  <input type="radio" name="number" value="concepts"> 150 <br clear="all">
 	  <input type="radio" name="number" value="concepts"> 1005 <br clear="all">
 	  
-	  <br clear="all">4. 650 x 4 = <br clear="all">
+	  <br clear="all">6. 650 x 4 = <br clear="all">
 	  <br>  
 	  <input type="radio" name="number" value="concepts"> 2400 <br clear="all">
 	  <input type="radio" name="number" value="concepts"> 2420 <br clear="all">
 	  <input type="radio" name="number" value="concepts"> 2600 <br clear="all">
 	  <input type="radio" name="number" value="concepts"> 4220 <br clear="all">
 	  
-	 
+	  <br clear="all">7. 321 + 195 <br clear="all">
+	  <br clear="all">Which of following is the best match for the addition shown above?
+	  <br clear="all"><input type="radio" name="number" value="concepts"> 300+100 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 400+100 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 300+200 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 400+200 <br clear="all">
+	  
+	  
+	  <br clear="all"><br clear="all"><td><strong>Fractions and Decimals:</strong><br>
+	  
+	  <br clear="all">8. 5% written as a fraction is: <br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> 1/5  <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 1/2  <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 5/10 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 5/100 <br clear="all">
+	  	 
+	  <br clear="all">9. If 2/5 of a length is equal to 60m. How long is 1/3 of the same length <br clear="all">
+	  <br>  
+     <textarea name="textarea" rows="5" cols="52"></textarea>	  
+	  
+	  <br clear="all">10. 4.3 + 8.4 + 9.5 = <br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> 0.222 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 2.22 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 22.2 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 222 <br clear="all">
+	  	 
+     <br clear="all">11. (3/5) - (1/2) = <br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> 2/3 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 2/10<br clear="all">
+	  <input type="radio" name="number" value="concepts"> 5/10<br clear="all">
+	  <input type="radio" name="number" value="concepts"> 1/10 <br clear="all">
+	  
+	  <br clear="all">12. If 3.15 x 10 = 31.5, then 3.15 x 100 = <br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> 0.315<br clear="all">
+	  <input type="radio" name="number" value="concepts"> 3.15 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 31.5 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 315.0 <br clear="all">
+	  
+	  <br clear="all">13. 25% of 100 written as a fraction is: <br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> 1/25 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 1/5  <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 1/4  <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 1/2  <br clear="all">
+	  
+	  <br clear="all">14. 200 x 0.6 = <br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> 1.200 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 12.00 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 120.0 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 1200 <br clear="all">	  
+	  
+	  <br clear="all">15.There are 30 pupils in class 4. 10% of them are absent. How many pupils are present?<br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> 20 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 17 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 27<br clear="all">
+	  <input type="radio" name="number" value="concepts"> 23 <br clear="all">
+	  <br clear="all"><br clear="all"><td><strong>Ratio and Proportions:</strong><br>
+	  
+	  <br clear="all">16. There are 12 cars in the schoolyard. If the ratio of car wheels to bicycle wheels is 4:2, how many bicycles   	are there? <br clear="all">
+	  <br>  
+	       <textarea name="textarea" rows="5" cols="52"></textarea>	  
+	  	 
+	  <br clear="all">17. At school Zoe exchanges four guppies for one angelfish. How many angelfish will she receive for 28 guppies? <br clear="all">
+	  <br>  
+     <textarea name="textarea" rows="5" cols="52"></textarea>	  
+	  
+	  <br clear="all">18. Solomon had 10 marbles Abraham had twice as many marbles as Solomon. Abraham gave Solomon 3 of his marbles. How many marbles does Abraham have now<br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> 3 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 10 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 17 <br clear="all">
+	  <input type="radio" name="number" value="concepts"> 20 <br clear="all">
+	  	 
+     <br clear="all">19. A farmer divides 1500 mangoes between two vendors in the ratio 2:3. Which of the following shows the number of mangoes that each vendor buys?<br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> (200,300) <br clear="all">
+	  <input type="radio" name="number" value="concepts"> (500,1000)<br clear="all">
+	  <input type="radio" name="number" value="concepts"> (600,900)<br clear="all">
+	  <input type="radio" name="number" value="concepts"> (1000, 1500)<br clear="all">
+	  
+	  <br clear="all">20. Three numbers are such that the first number is half of the second and the third number is four times the first which of the following sets of numbers matches the statement above? <br clear="all">
+	  <br>  
+	  <input type="radio" name="number" value="concepts"> {5,10,20}<br clear="all">
+	  <input type="radio" name="number" value="concepts"> {4,8,32} <br clear="all">
+	  <input type="radio" name="number" value="concepts"> {6,3,24}<br clear="all">
+	  <input type="radio" name="number" value="concepts"> {12,24,3} <br clear="all">
+	  
+	
 	  </td>
 	  
 	  
