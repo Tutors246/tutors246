@@ -19,7 +19,116 @@
 	 <link href="css/bootstrap.mins.css" rel="stylesheet">
     <link href="css/portfolio-items.css" rel="stylesheet">
     <link href="css/cs.css" rel="stylesheet">
-    
+ <style>
+@font-face {
+  font-family: "digital 7 italic";
+  src: url(https://dl.dropbox.com/s/f4cdnmkjrhacrvr/digital-7-italic.ttf);
+}
+
+body {
+  background-color: #808080;
+}
+
+.well {
+  background: transparent;
+  border: none;
+  margin-top: 30px;
+  max-width: 320px;
+  /*margin-top: 3%;
+  max-width: 40%;*/
+}
+
+#screen {
+  background-color: #fff;
+  background: -o-linear-gradient(bottom right, #83bbc9, #cae2e8);
+  background: -moz-linear-gradient(bottom right, #83bbc9, #cae2e8);
+  background: linear-gradient(to bottom right, #83bbc9, #cae2e8);
+  border: none;
+  font-family: "digital 7 italic", sans-serif;
+  font-size: 26px;
+  height: 50px;
+  letter-spacing: 2px;
+  margin-top: 2px;
+  width: 250px;
+}
+
+input {
+  background-color: #cae2e8;
+  background: -o-linear-gradient(bottom right, #83bbc9, #cae2e8);
+  background: -moz-linear-gradient(bottom right, #83bbc9, #cae2e8);
+  background: linear-gradient(to bottom right, #83bbc9, #cae2e8);
+  border: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-family: "digital 7 italic", sans-serif;
+  font-size: 28px;
+  height: 50px;
+  letter-spacing: 2px;
+  margin-top: 2px;
+  padding-top: 20px;
+  padding-right: 5px;
+  width: 300px;
+}
+
+.btn, .btn:hover, .btn:focus {
+  box-shadow: -1px 3px 2px #000000;
+  color: #fafafa;
+  font-size: 22px;
+  /*font-size: 1.4em;*/
+  height: 45px;
+  margin: 7px 1px 0px;
+  outline: none !important;
+  width: 55px;
+}
+
+.btn:active {
+  box-shadow: -1px 1px 2px #000000;
+  transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+}
+
+.operator {
+  background-color: #0086b3;
+}
+
+.number, .number:hover, .number:focus {
+  background-color: #fafafa;
+  color: #000000
+}
+
+#backspace {
+  background-color: #333333;
+}
+
+#clear {
+  background-color: #f3878c;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: #333333;
+  }
+  
+  .well {
+    background-color: #808080;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .well {
+    max-width: 400px;
+  }
+  #screen {
+    width: 300px;
+  }
+  .btn, .btn:hover, .btn:focus {
+    height: 40px;
+    width: 80px;
+  }
+}	 
+</style>	 
 
 </head>
 
@@ -219,7 +328,50 @@
     </div>
   </div>
 </section>
-        <!-- Footer -->
+		     
+		     
+<!----------------------->		     
+<div class="container-fluid">
+  <div class="well center-block">
+    <!-- SCREEN -->
+    <form>
+      <input class="center-block text-right" type="text" value="012345.6789" id="output" disabled>
+    </form>
+    <!-- BUTTONS -->
+    <div class="text-center">
+      <button type="button" class="btn" id="backspace"><span class="fa fa-long-arrow-left"></span></button>
+      <button type="button" class="btn operator">%</button>
+      <button type="button" class="btn operator">+/-</button>
+      <button type="button" class="btn" id="clear">C</button>
+    </div>
+    <div class="text-center">
+      <button type="button" class="btn number">7</button>
+      <button type="button" class="btn number">8</button>
+      <button type="button" class="btn number">9</button>
+      <button type="button" class="btn operator">÷</button>
+    </div>
+    <div class="text-center">
+      <button type="button" class="btn number">4</button>
+      <button type="button" class="btn number">5</button>
+      <button type="button" class="btn number">6</button>
+      <button type="button" class="btn operator">×</button>
+    </div>
+    <div class="text-center">
+      <button type="button" class="btn number">1</button>
+      <button type="button" class="btn number">2</button>
+      <button type="button" class="btn number">3</button>
+      <button type="button" class="btn operator">-</button>
+    </div>
+    <div class="text-center">
+      <button type="button" class="btn number">0</button>
+      <button type="button" class="btn operator">.</button>
+      <button type="button" class="btn operator">=</button>
+      <button type="button" class="btn operator">+</button>
+    </div>
+  </div>
+</div>		     
+<!------------------------------------------------------>		     
+<!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
@@ -243,6 +395,32 @@
     t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
   })(window, document, '_gscq','script','//widgets.getsitecontrol.com/89963/script.js');
 </script>
+			   
+			   <script>
+		$(".number").click(function(){
+});
+
+/*
+function add() {
+  
+}
+
+function subtract() {
+  
+}
+
+function multiply() {
+  
+}
+
+function divide() {
+  
+}
+*/	   
+			   
+			   
+			   
+			   </script>
 </body>
 
 </html>
