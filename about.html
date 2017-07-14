@@ -27,6 +27,151 @@
    enable_page_level_ads: true
   });
 </script>
+	<style>
+	@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300,500);
+@import url(https://fonts.googleapis.com/css?family=Life+Savers:400,700);
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  font-family: 'Alegreya Sans', sans-serif;
+  overflow: hidden;
+}
+#accordian {
+  height: 100%;
+  overflow: hidden;
+  width: 120%;
+  margin-left: -5%;
+}
+#accordian > div {
+  height: 150%;
+  margin-top: -10%;
+  padding: 10% 5%;
+  width: 34.75%;
+  float: left;
+  color: #ccc;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+#accordian > div h1 {
+  text-align: center;
+  cursor: pointer;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  font: normal 75px/35px 'Life Savers', cursive;
+  margin-top: 20%;
+}
+#accordian > div h1.checked {
+  margin-top: 5% !important;
+  font-size: 45px;
+}
+#accordian > div h1.small {
+  font-size: 25px;
+}
+#accordian > div > div {
+  margin: 10px 5%;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  display: none;
+  font-size: 18px;
+}
+#accordian .about {
+  background: #4e256b;
+  /* Old browsers */
+  background: -webkit-linear-gradient(top, #4e256b 1%, #31398e 100%);
+  background: -moz-linear-gradient(top, #4e256b 1%, #31398e 100%);
+  background: -o-linear-gradient(top, #4e256b 1%, #31398e 100%);
+  background: -ms-linear-gradient(top, #4e256b 1%, #31398e 100%);
+  background: linear-gradient(top, #4e256b 1%, #31398e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4e256b', endColorstr='#31398e', GradientType=0);
+}
+#accordian .blog {
+  background: #2b95a5;
+  background: -webkit-linear-gradient(top, #2b95a5 2%, #257c8c 100%);
+  background: -moz-linear-gradient(top, #2b95a5 2%, #257c8c 100%);
+  background: -o-linear-gradient(top, #2b95a5 2%, #257c8c 100%);
+  background: -ms-linear-gradient(top, #2b95a5 2%, #257c8c 100%);
+  background: linear-gradient(top, #2b95a5 2%, #257c8c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b95a5', endColorstr='#257c8c', GradientType=0);
+}
+.logo {
+  display: none;
+  position: fixed;
+  bottom: 50%;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  pointer-events: none;
+}
+.logo img {
+  pointer-events: auto;
+}
+.logo.bottom {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+}
+
+	</style>
+	
+	<script>
+		
+		/*-----Toggling According -----*/
+$(document).ready(function() {
+  $("#accordian .about h1").click(function() {
+    $('.about h1').addClass('checked');
+    $('.blog h1').addClass('small'); 
+    $('.logo').addClass('bottom'); 
+    $("#accordian .blog").animate(
+      { width: "9.5%"}, 500);
+    $("#accordian .about").animate(
+      { width: "64.55%"}, 500);
+    $("#accordian .about > div").show(500);
+    $("#accordian .blog > div").hide(500);
+    $('.blog h1').removeClass('checked');
+    $('.about h1').removeClass('small'); 
+  });
+  $("#accordian .blog h1").click(function() {
+    $('.blog h1').addClass('checked'); 
+    $('.about h1').addClass('small');  
+    $('.logo').addClass('bottom');     
+    $("#accordian .about").animate(
+      { width: "9.5%" }, 500);
+    $("#accordian .blog").animate(
+      { width: "64.55%" }, 500);
+    $("#accordian > .blog > div").show(500);
+    $("#accordian > .about > div").hide(500);
+    $('.about h1').removeClass('checked');
+    $('.blog h1').removeClass('small');     
+  });
+  $(".logo img").click(function() {
+    $("#accordian .about").animate(
+      { width: "34.75%"}, 500);
+    $("#accordian .blog").animate(
+      {width: "34.75%"}, 500);
+    $("#accordian .blog > div").hide(500);
+    $("#accordian .about > div").hide(500);
+    $('.about h1').removeClass('checked');
+    $('.blog h1').removeClass('checked');
+    $('.logo').removeClass('bottom'); 
+  });
+});
+		
+	</script>
 <style>
 	.about
 	{
@@ -100,6 +245,64 @@
 	<!---div align="center"> <img src="../img/Boy-Reading.jpg"></div>--->
 	<center><iframe frameborder="0" width="560" height="315" align="center" src="../img/business-explainer-1 (1).mp4" allowfullscreen="true"></iframe><p><a href="https://biteable.com/watch/business-explainer-1-1467023"></a> </p></center>
 	<p></p> <p></p> <p></p> <p></p> <p></p> <p></p>
+	
+	
+	<!--------->
+	
+	<div id='accordian'>
+  <div class="about">
+    <h1>Tutor Service</h1>
+    <div>
+      <p>Tutors246 is a tutoring and essay service geared at providing 100% passing grades. Our team comprises of experienced tutors and graduate level researchers who are committed to providing exceptional service. Our tutors are thoroughly screened and their credentials verified prior to joining our team. You can select from our team of Skype tutors or our one-on-one tutors who are available for home visits. We tutor for a range of subjects from B.S.S.E.E (Common Entrance Examination), CXC (Caribbean Examination Council), CAPE, and SAT's. You can view the profiles of our tutors, select the tutor you are most comfortable with, and then fill our tutor request form to select that tutor with the selected day and time. 
+      
+      <br>BSSEE 
+ <p>At Tutors246 we offer several comprehensive educational preparation packages for the common Entrance (11+) exam. </p>
+      <p><b>All Inclusive</b></p>
+ <br>Access to Members Area 
+ <br>Access to Online Tutors 
+ <br>Homework Assistance 
+ <br>Educational Materials 
+ <br>Practice Tests 
+ <br>Instructional Videos 
+ <br>Educational Software 
+ <br>Progress Reports 
+ <br>Classroom Tutoring 
+ <br>Members Area Access 
+ <br>Access to Members Area Only 
+ <br>Access to Online Tutors 
+      <p><b>Homework Assistance </b></p>
+<br>Educational Materials 
+<br>Practice Tests 
+<br>Instructional Videos 
+<br>Educational Software 
+<br>Progress Reports 
+      <p><b>Tutoring Only </b></p>
+<br>Two classroom Sessions 
+<br>Time: Saturdays from 9:00am - 11:00am 
+<br>Location: Barbados Community College 
+<br>Access to Online Tutors 
+<br>Progress Reports 
+      </p>
+    </div>
+  </div>
+  <div class="blog"> 
+    <h1>Essay Service</h1>
+    <div>
+    <p>Our essay writing service includes: <br>Thesis research, <br>Essay editing and writing. 
+<br>Here is how it works: 
+<br>Visit our Essay Service Page 
+<br>Go to service request 
+<br>Fillout the form 
+<br>Upload any materials
+<br>Make Payment
+<br>You will receive a receipt and the scheduled completion of your essay (usually 1-2 Weeks)</p>
+    </div>
+  </div>
+   </div>
+</div>
+
+<div class="logo"> <a href="#"> <img src="http://placehold.it/170x55"></a> </div>
+	<!----
 	<div align="center"><b>Tutoring Service </b>
 		<p class= "about"> Tutors246 is a tutoring and essay service geared at providing 100% passing grades. Our team comprises of experienced tutors and graduate level researchers who are committed to providing exceptional service. Our tutors are thoroughly screened and their credentials verified prior to joining our team. You can select from our team of Skype tutors or our one-on-one tutors who are available for home visits. We tutor for a range of subjects from B.S.S.E.E (Common Entrance Examination), CXC (Caribbean Examination Council), CAPE, and SAT's. You can view the profiles of our tutors, select the tutor you are most comfortable with, and then fill our tutor request form to select that tutor with the selected day and time. </div></div>
 	<p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p> <p></p><p></p> <p></p> <p></p> <p></p> <p></p> <p></p>
@@ -120,7 +323,7 @@
 	  <div align="center"><img src="../img/Graduates_primary_page.jpg"></center>
 	  </div>
         <!-- Footer -->
-        <footer>
+       <!-- <footer>
             <div class="row">
                 <div class="col-lg-12">
 						<p>Copyright &copy; Tutors246 2017</p>&nbsp;
@@ -164,7 +367,7 @@
 <li>Barbados Community College </li>
 <li>Access to Online Tutors </li>
 <li>Progress Reports </li>
-								</ul>
+								</ul>---->
             <!-- /.row -->
         </footer>
 
