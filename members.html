@@ -144,43 +144,18 @@ input[type=button], input[type=submit], input[type=reset] {
 
 <body>
   <!-------------->
-	<!-- BEGIN POPPYDOG.COM PASSWORD PROTECTOR LOGIN BOX -->
-<script language="JavaScript" src="http://www.poppydog.com/ma/pd/pdutil.js"></script>
- <form action="http://www.poppydog.com/pp/login.do" focus="username">
-<input type="hidden" name="action" value="w_sd2"/>
-<input type="hidden" name="tiid" value="46136"/>
-<input type="hidden" name="nof" value="t"/>
-<script type="text/javascript">
-pd_pploginbox_writeparams();
+	<!-- BEGIN POPPYDOG.COM REGISTRATION WIDGET -->
+<div style="width:100%">
+<script type="text/javascript">poppydog_rw_tiid=46136;poppydog_service='registration';poppydog_rw_flg=3888;
+//NOTE: You can change the  name of the links by editing this:
+var poppydog_rw_labels=['Login','Register','Logout','Member Directory','Profile', 'Inbox', 'Welcome', 'Username','Password','Forgot your password?'];
+//NOTE: You can add your own links to the widget by editing this:
+var poppydog_rw_mylinks=[];
+//e.g. var poppydog_rw_mylinks=['Members Area','http://www.blah.com/membersonly.html','Another Page for Members','http://www.blah.com/another.html'];
 </script>
-<table border="0" align="center" cellspacing="10">
-<tr><td colspan="2">
-<div id="pd_pp_invalid" style="visibility:hidden">
-<b style="font-size:smaller">Login details are incorrect</b>
+<script type="text/javascript" src="http://www.poppydog.com/widgets/poppydogWidget.js"></script>
 </div>
-</td></tr>
-<tr>
-<td align="right"><b>Username</b>:</td>
-<td><input type="text" name="username" size="10" maxlength="20"/></td>
-</tr>
-<tr>
-<td align="right"><b>Password</b>:</td>
-<td><input type="password" name="password" size="10" maxlength="20"/></td>
-</tr>
-<tr>
-<td colspan="2" align="left"><input type="submit" value="Login"/></td>
-</tr>
-</table>
-</form>
-
-<script language="javascript">
-if (document.location.search.indexOf("pd_pp_invalidLogin=")>-1)
-	pd_show("pd_pp_invalid");
-else
-	pd_hide("pd_pp_invalid");
-doFixIt("write");
-</script>
-<!-- END POPPYDOG.COM PASSWORD PROTECTOR LOGIN BOX -->
+<!-- END POPPYDOG.COM REGISTRATION WIDGET -->
 
   
   <!-- Footer -->
