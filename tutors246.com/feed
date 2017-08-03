@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Caribbean Tutors</title>
-	<atom:link href="http://caribbeantutors.com/feed/" rel="self" type="application/rss+xml" />
-	<link>http://caribbeantutors.com</link>
+	<atom:link href="http://tutors246.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://tutors246.com</link>
 	<description>Find the perfect tutor for your home</description>
 	<lastBuildDate>Fri, 28 Jul 2017 19:09:05 +0000</lastBuildDate>
 	<language>en-US</language>
