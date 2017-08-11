@@ -4,7 +4,7 @@ unset($CFG);
 global $CFG;
 $CFG = new stdClass();
 
-$CFG->wwwroot   = 'https://tutors246.moodlecloud.com';
+$CFG->wwwroot   = 'https://tutors246.com/moodle.html';
 $CFG->dataroot  = '/path/to/moodledata';
 $CFG->dbtype    = 'pgsql';
 $CFG->dblibrary = 'native';
