@@ -2,7 +2,7 @@
 -- version 4.6.4
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
+ Host: www.tutors246.com/moodle.com
 -- Generation Time: Aug 10, 2017 at 11:59 PM
 -- Server version: 5.7.14
 -- PHP Version: 7.0.10
