@@ -7,9 +7,9 @@
 	>
 <channel>
 	<title>Comments for Tutors246</title>
-	<atom:link href="http://tutors246.com/comments/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wordpress.com/comments/all/tutors246.wordpress.com" rel="self" type="application/rss+xml" />
 	<link>http://tutors246.com</link>
-	<description>Find the perfect tutor for your home</description>
+	<description>Find the perfect tutor to help you achieve academic success</description>
 	<lastBuildDate>Thu, 03 Aug 2017 14:07:49 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
