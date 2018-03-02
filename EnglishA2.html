@@ -18,6 +18,12 @@
     <link rel="alternate" type="application/rss+xml" title="Tutors246 &raquo; Feed" href="http://tutors246.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="Tutors246 &raquo; Comments Feed" href="http://tutors246.com/comments/feed/" />
 
+
+<!--Progress Bar-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -117,18 +123,118 @@ img {
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<p>This test is 2 hours in duration - it is intended to assess your understanding and expression skills in the subject, to allow us to provide the best tutoring package for your individual learning needs. </p>
+				<p>This test is 2 hours in duration - it is intended to assess your understanding and expression skills in the subject, to allow us to provide the best tutoring package for your individual learning needs. The paper is a modified version of the actual examination. </p>
 				<ul>1 
 				<li><b>Paper 01 (45  minutes - 24% of Total Assessment)<br/>30 Compulsory Multiple Choice Questions</b></li>	
 				<p></p>
 				This paper is divided into two section which test your understanding of the subject only.
 				<p></p>				
 				<li><b>Section 1 - 10 Multiple Choice Questions</b></li>
+
+
+
+ <?php
+         
+         // define variables and set to empty values
+         $question1 = $question2 = $question3 = $question4 = $question5 = "";
+         
+         if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $question1 = test_input($_POST["question1"]);
+            $question2 = test_input($_POST["question2"]);
+            $question3 = test_input($_POST["question3"]);
+            $question4 = test_input($_POST["question4"]);
+            $question5 = test_input($_POST["question5"]);
+         }
+         
+         function test_input($data) {
+            $data = trim($data);
+            $data = stripslashes($data);
+            $data = htmlspecialchars($data);
+            return $data;
+         }
+      ?>
+   
+      <h2>Tutorials Point Absolute classes registration</h2>
+      
+      <form method = "post" action = "/php/php_form_introduction.htm">
+         <table>
+            <tr>
+               <td>Name:</td> 
+               <td><input type = "text" name = "name"></td>
+            </tr>
+            
+            <tr>
+               <td>E-mail:</td>
+               <td><input type = "text" name = "email"></td>
+            </tr>
+            
+            <tr>
+               <td>Specific Time:</td>
+               <td><input type = "text" name = "website"></td>
+            </tr>
+            
+            <tr>
+               <td>Class details:</td>
+               <td><textarea name = "comment" rows = "5" cols = "40"></textarea></td>
+            </tr>
+            
+            <tr>
+               <td>Gender:</td>
+               <td>
+                  <input type = "radio" name = "gender" value = "female">Female
+                  <input type = "radio" name = "gender" value = "male">Male
+               </td>
+            </tr>
+            
+            <tr>
+               <td>
+                  <input type = "submit" name = "submit" value = "Submit"> 
+               </td>
+            </tr>
+         </table>
+      </form>
+      
+      <?php
+         echo "<h2>Your Given details are as :</h2>";
+         echo $name;
+         echo "<br>";
+         
+         echo $email;
+         echo "<br>";
+         
+         echo $website;
+         echo "<br>";
+         
+         echo $comment;
+         echo "<br>";
+         
+         echo $gender;
+      ?>
+
+
+
+
+
+
+
+
+
+
 				
+				<form action="assessment.html" method="post"  >
+				<input type="text"
+				
+				</form>
 			
 			
-			
-			Section 2 
+			<div class="container">
+ <!-- <h2>Progress Bar With Label</h2>-->
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+      0%
+    </div>
+  </div>
+</div>
 				
 				
 				

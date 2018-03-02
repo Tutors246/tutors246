@@ -18,6 +18,12 @@
     <link rel="alternate" type="application/rss+xml" title="Tutors246 &raquo; Feed" href="http://tutors246.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="Tutors246 &raquo; Comments Feed" href="http://tutors246.com/comments/feed/" />
 
+
+<!--Progress Bar-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -117,7 +123,7 @@ img {
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<p>This test is 2 hours in duration - it is intended to assess your understanding and expression skills in the subject, to allow us to provide the best tutoring package for your individual learning needs. </p>
+				<p>This test is 2 hours in duration - it is intended to assess your understanding and expression skills in the subject, to allow us to provide the best tutoring package for your individual learning needs. The paper is a modified version of the actual examination. </p>
 				<ul>1 
 				<li><b>Paper 01 (45  minutes - 24% of Total Assessment)<br/>30 Compulsory Multiple Choice Questions</b></li>	
 				<p></p>
@@ -125,10 +131,20 @@ img {
 				<p></p>				
 				<li><b>Section 1 - 10 Multiple Choice Questions</b></li>
 				
+				<form action="assessment.html" method="post"  >
+				<input type="text"
+				
+				</form>
 			
 			
-			
-			Section 2 
+			<div class="container">
+ <!-- <h2>Progress Bar With Label</h2>-->
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+      0%
+    </div>
+  </div>
+</div>
 				
 				
 				
