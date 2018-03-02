@@ -2,29 +2,55 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Nakeshia Lorde" >
-
-    <title>Caribbean Examination Council Tutoring</title>
+    <meta name="description" content="Tutors246 provides comprehensive coverage for CXC and 11+ examinations with 100% passing grades guaranteed.">
+    <meta name="author" content="Nakeshia" >
+    <title>Tutors246</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
-    <link href="css/portfolio-item.css" rel="stylesheet">
-	 <link href="css/bootstrap.mins.css" rel="stylesheet">
-    <link href="css/portfolio-items.css" rel="stylesheet">
-    <link href="css/cs.css" rel="stylesheet">
-    
+    <link href="css/business-frontpage.css" rel="stylesheet">
 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2901413.js"></script>
+<!-- End of HubSpot Embed Code -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7729618286189045",
+    enable_page_level_ads: true
+  });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('set', 'userId', {{USER_ID}}); // Set the user ID using signed-in user_id.
+  ga('create', 'UA-103250894-1', 'auto');
+  ga('send', 'pageview');
+</script>	
+<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script><a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 20000" href="https://my.setmore.com/bookingpage/be90c5cd-3710-48b0-8c08-b80d848c7bd2"><img border="none" src="https://my.setmore.com/images/bookappt/Setmore-Book-Now.png" alt="Book an appointment with Tutors246 using SetMore" /></a>
+	<style>
+img {
+    max-width: 100%;
+    height: auto !important;
+}
+</style>
 </head>
 
 <body>
 
+  
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -43,29 +69,26 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
                     <ul class="nav navbar-nav">
                     <li>
-                    <img src="img\logo.png.png" alt="">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src="img\logo.png.png" alt="">
                     </li>
-						  <li>
-                    <a href="https://tutors246.github.io/tutors246/"><big><div align="center">Home</div></big></a>
-                    </li>
-                    <li>
-                    <a href="#"><big><div align="center">About</div></big></a>
-                    </li>
-                    <li>
-                        <a href="services.html"><big><div align="center">Services</div></big></a>
-                    </li>
-                    <li>
-                        <a href="https://docs.google.com/forms/d/1CPaKXXYCypoXHfGQSEA1okqVqzEYCQHPnzWNFq19FUg/prefill"><big>
-                        <div align="center">Contact</div></big></a>
-                    </li>
-                </ul> 
+						
+ 						  <li><a href="https://tutors246.github.io/tutors246/"><big><div align="center">Home</div></big></a></li>
+              <li><a href="about.html"><big><div align="center">About</div></big></a></li>
+              <li><a href="services.html"><big><div align="center">Services</div></big></a></li>
+		     <li><a href="ourtutors.html"><big><div align="center">Our Tutors</div></big></a></li>
+		  <li><a href="https://tutors246.moodlecloud.com/"><big><div align="center">Members</div></big></a></li>
+		       <li><a href="joinourteam.html"><big><div align="right">Join Our Team  </div></big></a></li>
+		<li><a href="earlychildhood.html"><big><div align="right">Resources</div></big></a></li>
+			    		</ul> 
 
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
-
+	
     <!-- Page Content -->
     <div class="container">
 
@@ -73,8 +96,7 @@
         <div class="row">
             <div class="col-lg-12">
                <br clear="all"><br clear="all"><h3 class="page-header">
-               <a href="http://www.cxc.org/">
-               <img src="img/img.jpg" alt="lign="left" width="75" height="75"></a>
+               
                    <medium>Caribbean Examination Council Preparation Tips</medium>
                 </h3>
             </div>
@@ -85,9 +107,9 @@
         <div class="row">
 
             <div class="col-md-8">
-                        <div class="video controls">
+                        <div class="video controls"><div class="video">
 			   <iframe width="750" height="400" src="https://www.youtube.com/embed/TOvWRIqFfuM" frameborder="0" allowfullscreen></iframe>
-            </div></div>
+															   </div></div></div>
 
 
               <div align="center"> <h3>Overview</h3>
@@ -102,41 +124,32 @@
 				  </p>              
               
 
-             <div align="center"> <a href="https://docs.google.com/forms/d/1CPaKXXYCypoXHfGQSEA1okqVqzEYCQHPnzWNFq19FUg/prefill">
-				 <img border="0" alt="W3Schools" src="img/icon_tutor.png">
+             <div align="center"> <a href="freeassessments.html">
+				 <img border="0" src="img/converting-on-the-job-training-assessments-to-online-featured.gif" width="400px" height="400px" float="right">
 				 </a> </div>
-
+	   
 
         </div>
         <!-- /.row -->
 
         <!-- Tutoring Subjects and Topics -->
         <h3> Tutoring Subjects and Topics </h3>
+																																 
+<div align="center"><a href="https://raw.githubusercontent.com/Tutors246/tutors246/cbf2061905f2476bf42fcd0ac0d56a3ab692a203/img/20882656_347250039045702_1175172186222720782_n.png"><img src="../img/Page-001.png" float="left" width="800px"></a><br/><a href="https://raw.githubusercontent.com/Tutors246/tutors246/cbf2061905f2476bf42fcd0ac0d56a3ab692a203/img/20882520_347250032379036_8464508905852327949_n.png"><img src="../img/Page-002.png" float="right" width="800px"></a></div>
         
-			   <div class="cardWrapper">
-			  <div class="cardFrame">
-			    <div class="card-container" onclick="window.location='#'">
-			      <div class="card">
-
-			          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
-			          <div class="user"><i class="fa fa-cogs">&nbsp;</i>
-			            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
-			          <div class="content">
-			            <div class="main">
-			<h3 class="butHeading">English A</h3>
-			              <p class="butText">We provide comprehensive coverage for the CXC English A examination which adheres to the syllabus and past papers.</p>
-			             </div>
-			          </div>
-			        </div>
-			        <!-- end front panel -->
-			        <div class="back">
-         
-          <div class="content">
-            <div class="main">
-             <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
-          <div class="user"><i class="fa fa-cogs">&nbsp;</i>
-            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
-              <p class="butText"><STRONG> Understanding </STRONG> 
+<section id="testimonial">
+  <div class="container-inf2">
+   <div class="btn-bar">
+ <!--- <div id="buttons">
+    <a class="some" id="textprev" href="#">&lt;</a>
+    <a class="some" id="textnext" href="#">&gt;</a>
+  </div>-->
+</div>
+<div id="textslides">
+  <ul>
+    <li class="textslide">
+      <h3>English A </h3>
+      <STRONG> Understanding </STRONG> 
 <br>(a) understand meaning conveyed in reading, through word choice, grammar, punctuation and paragraphing, and to obtain  information accurately; 
 <br>(b) grasp insights from reading literature; 
 <br>(c) evaluate opinions expressed in various forms. 
@@ -144,79 +157,20 @@
 <br>(a) communicate factual information clearly, concisely, and adequately in giving written instructions, reports, summaries, and expositions in appropriate language; 
 <br>(b) give aesthetic satisfaction to others in personal, creative and imaginative language; 
 <br>(c) communicate personal opinion clearly and cogently in language which persuades or dissuades effectively.
-            </p></p>
-             </div>
-          </div>
-        </div>
-        <!-- end back panel -->
-      </div>
-      <!-- end card -->
-    </div>
-    <!-- end card-container -->
-  </div>
-  <!-- end cardFrame -->
-  <div class="cardFrame">
-    <div class="card-container" onclick="window.location='#'">
-      <div class="card">
-        <div class="front">
-          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
-          <div class="user"><i class="fa fa-info-circle">&nbsp;</i>
-            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
-          <div class="content">
-            <div class="main">
-              <h3 class="butHeading">Geography</h3>
-              <p class="butText">Practical skills (PS) 
+</li>
+    <li class="textslide">
+      <h3> Geography </h3>Practical skills (PS) 
 				<br>Map Reading and Field Study 
 				<br>Knowledge Comprehension (KC) 
 				<br>Natural Systems 
 				<br>Use of Knowledge (UK) 
 				<br>Human Systems 
-				<br>Human-Environment Systems</p>
-           </div>
-          </div>
-        </div>
-        <!-- end front panel -->
-        <div class="back">
-                    <div class="content">
-            <div class="main">
-<p class="butText">
-              
-              </p>
-              </div>
-          </div>
-        </div>
-        <!-- end back panel -->
-      </div>
-      <!-- end card -->
-    </div>
-    <!-- end card-container -->
-  </div>
-  <!-- end cardFrame -->
-  <div class="cardFrame">
-    <div class="card-container" onclick="window.location='#'">
-      <div class="card">
-        <div class="front">
-       
-          <div class="user"><i class="fa fa-image">&nbsp;</i>
-            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
-          <div class="content">
-            <div class="main">
-              <h3 class="butHeading">History</h3>
-              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              <a class="butRead">Click Here</a></div>
-          </div>
-        </div>
-        <!-- end front panel -->
-        <div class="back">
-          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
-          <div class="user"><i class="fa fa-image">&nbsp;</i>
-            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
-          <div class="content">
-          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
-          <div class="user"><i class="fa fa-cogs">&nbsp;</i>
-            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
-            <div class="main">
-                           <p class="butText"><strong>Section A </strong>
+				<br>Human-Environment Systems
+     </p>
+    </li>
+    <li class="textslide">
+      <h3> History </h3>
+      <strong>Section A </strong>
 <br>The Indigenous Peoples and the European <br>Caribbean Economy and Slavery
 <br>Resistance and Revolt 
 <br><strong>Section B </strong>
@@ -224,206 +178,99 @@
 <br>Adjustments to Emancipation, 1838 - 1876, Caribbean Economy, 1875 - 1985 
 <br><strong>Section C </strong>
 <br>The United States in the Caribbean, 1776 - 1985
-<br>Caribbean Political Development up to 1985, Caribbean Society 1900 - 1985</p>
-             </div>
-          </div>
-        </div>
-        <!-- end back panel -->
-      </div>
-      <!-- end card -->
-    </div>
-    <!-- end card-container -->
-  </div>
-  <!-- end cardFrame -->
-  <div class="cardFrame">
-    <div class="card-container" onclick="window.location='#'">
-      <div class="card">
-        <div class="front">
-          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
-          <div class="user"><i class="fa fa-users">&nbsp;</i>
-            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
-          <div class="content">
-            <div class="main">
-              <h3 class="butHeading">Mathematics</h3>
-              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              <a class="butRead">Click Here</a></div>
-          </div>
-        </div>
-        <!-- end front panel -->
-        <div class="back">
-          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
-          <div class="user"><i class="fa fa-users">&nbsp;</i>
-            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
-          <div class="content">
-            <div class="main">
-              <h3 class="butHeading">SBA Assistance</h3>
-              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              <a class="butRead">Click Here</a></div>
-          </div>
-        </div>
-        <!-- end back panel -->
-      </div>
-      <!-- end card -->
-    </div>
-    <!-- end card-container -->
-  </div>
-  <!-- end cardFrame -->
-</div>
-<!-- end cardWrapper -->
-
-
-
-<div class="cardWrapper">
-  <div class="cardFrame">
-    <div class="card-container" onclick="window.location='#'">
-      <div class="card">
-        <div class="front">
-          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
-          <div class="user"><i class="fa fa-cogs">&nbsp;</i>
-            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
-          <div class="content">
-            <div class="main">
-              <h3 class="butHeading">Office Procedures</h3>
-              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              <a class="butRead">Click Here</a></div>
-          </div>
-        </div>
-        <!-- end front panel -->
-        <div class="back">
-          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
-          <div class="user"><i class="fa fa-cogs">&nbsp;</i>
-            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
-          <div class="content">
-            <div class="main">
-              <h3 class="butHeading">Heading</h3>
-              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              <a class="butRead">Click Here</a></div>
-          </div>
-        </div>
-        <!-- end back panel -->
-      </div>
-      <!-- end card -->
-    </div>
-    <!-- end card-container -->
-  </div>
-  <!-- end cardFrame -->
-  <div class="cardFrame">
-    <div class="card-container" onclick="window.location='#'">
-      <div class="card">
-        <div class="front">
-          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
-          <div class="user"><i class="fa fa-info-circle">&nbsp;</i>
-            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
-          <div class="content">
-            <div class="main">
-              <h3 class="butHeading">Principles of Business</h3>
-              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-          </div>
-          </div>
-        </div>
-        <!-- end front panel -->
-        <div class="back">
-                 <div class="user"><i class="fa fa-info-circle">&nbsp;</i>
-            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
-          <div class="content">
-            <div class="main">
-             
-              <p class="butText">Section 1 - The Nature of Business 
-<br>Section 2 - Internal Organizational Environment 
-<br>Section 3 - Establishing a Business 
-<br>Section 4 - Legal Aspects of Business 
+<br>Caribbean Political Development up to 1985, Caribbean Society 1900 - 1985
+    </li>
+ <li class="textslide">
+      <h3> Mathematics </h3>
+      The examination will consist of two papers: Paper 01, an objective type paper based on the Core Objectives and Paper 02, an essay or problem solving type paper based on both the Core and Optional Objectives.
+<br><br>Computation
+<br>Number Theory
+<br>Consumer Arithmetic
+<br>Sets
+<br>Measurement
+<br>Statistics
+<br>Algebra
+<br>Relations, Functions and Graphs
+<br>Geometry and Trigonometry
+    </li>
+ <li class="textslide">
+      <h3> Office Procedures </h3>
+     <br> Office Orientation
+<br>Communication
+<br>Recruitment and Orientation
+<br>Records and Information Management
+<br>Reception and Hospitality
+<br>Meetings
+<br>Travel Arrangements
+<br>Human Resources Management
+<br>Accounts and Financial Services
+<br>Procurement and Inventory Management
+<br>Sales, Marketing and Customer Service
+<br>Operations, Despatch and Transport Services
+    </li>
+ <li class="textslide">
+      <h3> Principles of Business </h3>
+     <br> Section 1 - The Nature of Business
+<br>Section 2 - Internal Organizational Environment
+<br>Section 3 - Establishing a Business
+<br>Section 4 - Legal Aspects of Business
 <br>Section 5 - Production
-<br>Section 6 - Marketing 
+<br>Section 6 - Marketing
 <br>Section 7 - Business Finance
-<br>Section 8- Role of Government in an Economy 
+<br>Section 8- Role of Government in an Economy
 <br>Section 9 - Social Accounting and Global Trade
-<br>Section 10 - Regional and Global Business Environment</p>
-</div>
-          </div>
-        </div>
-        <!-- end back panel -->
-      </div>
-      <!-- end card -->
-    </div>
-    <!-- end card-container -->
-  </div>
-  <!-- end cardFrame -->
-  <div class="cardFrame">
-    <div class="card-container" onclick="window.location='#'">
-      <div class="card">
-        <div class="front">
-          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
-       
- 
-          
-<div class="user"><i class="fa fa-image">&nbsp;</i>
-            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
-          <div class="content">
-            <div class="main">
-              <h3 class="butHeading">Social Studies</h3>
-              <p class="butText">Although Social Studies may appear at first glance to be an easy CXC subject, you will soon find that it is much more intricate and you would require assistance especially if you opted for the SBA option. </p>
-</div>
-          </div>
-        </div>
-        <!-- end front panel -->
-        <div class="back">
-          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
-         
-          <div class="content">
-            <div class="main">
-      <p class="butText">Section A- Individual, Family and Society</strong>
-<strong>				<br>Section B - Sustainable Development and Use of Resources </strong>
-				<br>(i) Development and Use of Resources 
-				<br>(ii) Regional Integration
-<strong>				<br>Section C - Options</strong>
-				<br>C1 - Communication 
-				<br>C2 - Consumer Affairs 
-				<br>C3 - Tourism</p>
-  </div>
-          </div>
-        </div>
-        <!-- end back panel -->
-      </div>
-      <!-- end card -->
-    </div>
-    <!-- end card-container -->
-  </div>
-  <!-- end cardFrame -->
-  <div class="cardFrame">
-    <div class="card-container" onclick="window.location='#'">
-      <div class="card">
-        <div class="front">
-          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
-          <div class="user"><i class="fa fa-users">&nbsp;</i>
-            <!--<img class="img-circle" src="rotating_card_profile3.png"/> --></div>
-          <div class="content">
-            <div class="main">
-              <h3 class="butHeading">SBA Assistance</h3>
-              <p class="butText">            We can provide help with your School Based Assessment, just give us a call to discuss your requirements and subject!</p>
-          </div>
-          </div>
-        </div>
-        <!-- end front panel -->
-        <div class="back">
-          <div class="cover"><img src="https://unsplash.it/g/400/300/?random" /></div>
-          <div class="content">
-            <div class="main">
-              <h3 class="butHeading">Heading</h3>
-              <p class="butText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-          </div>
-        </div>
-        <!-- end back panel -->
-      </div>
-      <!-- end card -->
-    </div>
-    <!-- end card-container -->
-  </div>
-  <!-- end cardFrame -->
-</div>
-<!-- end cardWrapper -->
+<br>Section 10 - Regional and Global Business Environment
+    </li>
 
-        <!-- Footer -->
+<li class="textslide">
+      <h3> Social Studies </h3>
+     <br> Section A</strong> Individual, Family and Society
+<strong>	<br>Section B</strong> Sustainable Development and Use of Resources
+<br>(i) Development and Use of Resources
+<br>(ii) Regional Integration
+<strong>	<br>Section C - Options</strong>
+<br>C1 - Communication
+<br>C2 - Consumer Affairs
+<br>C3 - Tourism
+    </li>
+										 
+										 <li class="textslide">
+<h3> Principles of Accounts </h3>
+<br> INTRODUCTION TO PRINCIPLES OF ACCOUNTS
+<br>THE CLASSIFIED BALANCE SHEET
+<br>BOOKS OF ORIGINAL ENTRY
+<br>LEDGERS AND THE TRIAL BALANCE
+<br>THE PREPARATION AND ANALYSIS OF
+<br>FINANCIAL STATEMENTS OF THE SOLETRADER
+<br>END OF PERIOD ADJUSTMENTS
+<br>CONTROL SYSTEMS
+<br>INCOMPLETE RECORDS
+<br>ACCOUNTING FOR PARTNERSHIPS
+<br>ACCOUNTING FOR CORPORATIONS (LIMITED
+LIABILITY COMPANIES)
+<br>ACCOUNTING FOR CO-OPERATIVE
+ SOCIETIES
+<br>ACCOUNTING FOR NON-TRADING
+(NON- PROFIT) ORGANIZATIONS
+<br>MANUFACTURING ACCOUNTS
+<br>PAYROLL ACCOUNTING
+																
+</li>
+
+<li class="textslide">
+      <h3> School Based Assessment (SBA) Assistance </h3>
+     <br> We can provide help with your School Based Assessment, just give us a call to discuss your requirements and subject!
+    </li>
+  </ul><p></p><p></p><p></p><p></p><p></p><p></p>
+  
+    </div>
+  </div>
+</section>
+		     <p></p><p></p><p></p><p></p><p></p>     
+		     
+		     		     <p></p><p></p><p></p><p></p><p></p>     
+
+<!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
@@ -441,8 +288,38 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/cs.js"></script>
+    <script src="js/cxc.js"></script>
+<script>
+  (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+    t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+  })(window, document, '_gscq','script','//widgets.getsitecontrol.com/89963/script.js');
+</script>
+			   
+			   <script>
+		$(".number").click(function(){
+});
 
+/*
+function add() {
+  
+}
+
+function subtract() {
+  
+}
+
+function multiply() {
+  
+}
+
+function divide() {
+  
+}
+*/	   
+			   
+			   
+			   
+			   </script>
 </body>
 
 </html>
