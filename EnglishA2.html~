@@ -155,31 +155,34 @@ img {
       ?>
    
       <h2>Tutorials Point Absolute classes registration</h2>
+      <p>Directions: Each of the sentences given below contains one underlined word. Beneath each sentence there are four options marked A_D. Select the option which is nearest in meaning to the underlined word in the sentence.</p>
       
       <form method = "post" action = "/php/php_form_introduction.htm">
          <table>
             <tr>
-               <td>Question1:</td> 
+               <td><b>Question 1:<b><br/>
+					<p>A recent survey had shown that most television viewers are extremely <u>discriminating</u> about what they watch. </p> </td>              
+           <p></p>
                <td><input type = "text" question1 = "question1"></td>
             </tr>
             
             <tr>
-               <td>E-mail:</td>
+               <td>Question 2:</td>
                <td><input type = "text" name = "email"></td>
             </tr>
             
             <tr>
-               <td>Specific Time:</td>
+               <td>Question 3:</td>
                <td><input type = "text" name = "website"></td>
             </tr>
             
             <tr>
-               <td>Class details:</td>
+               <td>Question 4:</td>
                <td><textarea name = "comment" rows = "5" cols = "40"></textarea></td>
             </tr>
             
             <tr>
-               <td>Gender:</td>
+               <td>Question 5:</td>
                <td>
                   <input type = "radio" name = "gender" value = "female">Female
                   <input type = "radio" name = "gender" value = "male">Male
@@ -194,7 +197,7 @@ img {
          </table>
       </form>
       
-      <?php
+   <!--   <?php
          echo "<h2>Your Given details are as :</h2>";
          echo $name;
          echo "<br>";
@@ -209,26 +212,11 @@ img {
          echo "<br>";
          
          echo $gender;
-      ?>
+      ?>-->
 
 
-
-
-
-
-
-
-
-
-				
-				<form action="assessment.html" method="post"  >
-				<input type="text"
-				
-				</form>
-			
-			
 			<div class="container">
- <!-- <h2>Progress Bar With Label</h2>-->
+<h2>Progress </h2>
   <div class="progress">
     <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
       0%
