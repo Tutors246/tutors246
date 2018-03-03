@@ -6,20 +6,17 @@
 	
 	<title>English Language (A) Assessment Test</title>
 	<h1><center>English Language (A) Assessment Test </center></h1>
-	<h1><p><b><center>Paper 01 - Section 01</center></b></p><p></p><p></p><p></p><p></p></h1>
+	<h1><p><b><center>Paper 01</center></b></p><p></p><p></p><p></p><p></p></h1>
 	<h1><center><b>45 Minutes </b> </center></h1>
 	
-	<input type="hidden" id="set-time" value="50"/>
-<div id="countdown">
-  
-  <div id='tiles' class="color-full"></div>
-  <div class="countdown-label">Time Remaining</div>
-</div>
-	
-	
-	<h1><p><center>Directions: Each of the sentences given below contains one underlined word. Beneath each sentence there are four options marked A_D. Select the option which is nearest in meaning to the underlined word in the sentence.</center></p></h1>
-	
+<!-- Creat Countdown Timer -->
+<article class="clock" id="model3">
+  <h3></h3>
 
+  <div class="count">
+    <div id="timer"></div>
+  </div>
+</article>
 	
 	<p></p>
 	
@@ -27,87 +24,41 @@
 	
 	<style>
 	
-	body{ 
-	font: normal 13px/20px Arial, Helvetica, sans-serif; word-wrap:break-word;
-	background: #fff;
-  padding-top: 100px
+	* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.countdown-label {
-  font: thin 15px Arial, sans-serif;
-	color: #65584c;
-	text-align: center;
-	text-transform: uppercase;
-	display: inline-block;
-  letter-spacing: 2px;
-  margin-top: 9px
-}
-#countdown{
-box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
-width: 240px;
-	height: 96px;
-	text-align: center;
-background: #f1f1f1;
-
-	border-radius: 5px;
-
-	margin: auto;
-
+body {
+    width: 100%;
+    font: normal bold 16px/normal tahoma;
 }
 
-#countdown #tiles{
-  color: #fff;
-	position: relative;
-	z-index: 1;
-text-shadow: 1px 1px 0px #ccc;
-	display: inline-block;
-  font-family: Arial, sans-serif;
-	text-align: center;
-  
-  padding: 20px;
-  border-radius: 5px 5px 0 0;
-  font-size: 48px;
-  font-weight: thin;
-  display: block;
-    
+article {
+    width: 300px;
+    text-align: center;
+  background-color: #333;
+    border-radius: 10px;
+    margin: 50px auto 20px;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px #ccc;
 }
 
-.color-full {
-  background: #53bb74;
+article h3 {
+    padding: 10px;
+    color: #fff;
 }
-.color-half {
-  background: #ebc85d;
+article .count {
+    padding: 5px;
 }
-.color-empty {
-  background: #e5554e;
+article #timer{
+    padding: 5px;
+    color: crimson;
+    background-color: aliceblue;
+    border-radius: 2px;
 }
-
-#countdown #tiles > span{
-	width: 70px;
-	max-width: 70px;
-
-	padding: 18px 0;
-	position: relative;
-}
-
-#countdown .labels{
-	width: 100%;
-	height: 25px;
-	text-align: center;
-	position: absolute;
-	bottom: 8px;
-}
-
-#countdown .labels li{
-	width: 102px;
-	font: bold 15px 'Droid Sans', Arial, sans-serif;
-	color: #f47321;
-	text-shadow: 1px 1px 0px #000;
-	text-align: center;
-	text-transform: uppercase;
-	display: inline-block;
-}
-	
 	</style>
 
 </head>
@@ -119,7 +70,8 @@ text-shadow: 1px 1px 0px #ccc;
 		<form action="grade.php" method="post" id="quiz">
 		
             <ol>
-            
+            	
+	<h1><p><center>Directions: Each of the sentences given below contains one underlined word. Beneath each sentence there are four options marked A_D. Select the option which is nearest in meaning to the underlined word in the sentence.</center></p></h1>
                 <li>
                 
                     <h3>The advertisement invites tourists to spend a day in an <u>authentic </u> sugar plantation setting.</h3>
@@ -145,6 +97,66 @@ text-shadow: 1px 1px 0px #ccc;
                     </div>
                 
                 </li>
+                
+                	<h1><p><center>Directions: Each of the sentences given below contains one underlined word. Beneath each sentence there are four options marked A_D. Select the option which is most nearly opposite in meaning to the underlined word in the sentence.</center></p></h1>                
+                
+                
+                <li>
+                
+                    <h3>As a <u>deterrent</u> to bad drivers, the government intends to introduce heavier fines for monitoring offences.</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
+                        <label for="question-4-answers-A">A) Attraction</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
+                        <label for="question-4-answers-B">B) Reward</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
+                        <label for="question-4-answers-C">C) Incentive</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
+                        <label for="question-4-answers-D">D) Prize</label>
+                    </div>
+                
+                </li>
+                
+         <h1><p><center>Directions: Each of the sentences given below contains one blank space. Beneath each sentence there are four options marked A_D. Choose the option which containa the word or set of words that most logically completes the sentence.</center></p></h1>   
+                
+                   <li>
+                
+                    <h3>CSS Stands for...</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                        <label for="question-1-answers-D">D) None of the above</label>
+                    </div>
+                
+                </li> 
+                
+                
+         <h1><p><center>Directions: Each of the sentences given below contains one blank space. Beneath each sentence there are four options marked A_D. Choose the option which containa the word or set of words that most logically completes the sentence.</center></p></h1>                            
                 
                 <li>
                 
@@ -174,81 +186,86 @@ text-shadow: 1px 1px 0px #ccc;
                 
                 <li>
                 
-                    <h3>SEO Stand for...</h3>
+                    <h3>Even though he was an old schoolfirend, the Bank Manager had to consider Errol's request for a bank loan <u>objectively</u></h3>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
-                        <label for="question-3-answers-A">A) Secret Enterprise Organizations</label>
+                        <label for="question-3-answers-A">A) Philisophically</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
-                        <label for="question-3-answers-B">B) Special Endowment Opportunity</label>
+                        <label for="question-3-answers-B">B) Calmly</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
-                        <label for="question-3-answers-C">C) Search Engine Optimization</label>
+                        <label for="question-3-answers-C">C) Rationally</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
-                        <label for="question-3-answers-D">D) Seals End Olives</label>
+                        <label for="question-3-answers-D">D) Emotionally</label>
                     </div>
                 
                 </li>
                 
-                <li>
-                
-                    <h3>A 404 Error...</h3>
-                    
-                    <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
-                        <label for="question-4-answers-A">A) is an HTTP Status Code meaning Page Not Found</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
-                        <label for="question-4-answers-B">B) is a good excuse for a clever design</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
-                        <label for="question-4-answers-C">C) should be monitored for in web analytics</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
-                        <label for="question-4-answers-D">D) All of the above</label>
-                    </div>
-                
-                </li>
+	
+
                 
                 <li>
                 
-                    <h3>Your favorite website is</h3>
+                    <h3>The letter she received from her brother, who is living in Canda, contained some <u>profoundly</u> disturbing news about his family.</h3>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
-                        <label for="question-5-answers-A">A) CSS-Tricks</label>
+                        <label for="question-5-answers-A">A) Slenderly</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
-                        <label for="question-5-answers-B">B) CSS-Tricks</label>
+                        <label for="question-5-answers-B">B) Mildly</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
-                        <label for="question-5-answers-C">C) CSS-Tricks</label>
+                        <label for="question-5-answers-C">C) Moderately</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
-                        <label for="question-5-answers-D">D) CSS-Tricks</label>
+                        <label for="question-5-answers-D">D) Deeply</label>
                     </div>
                 
                 </li>
+                
+                   <li>
+                
+                    <h3>The lawyer felt that his client had been given an <u>unduly</u> harsh sentence.</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                        <label for="question-1-answers-A">A) Unnecessarily </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                        <label for="question-1-answers-B">B) Appropriately</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                        <label for="question-1-answers-C">C) Particularly</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                        <label for="question-1-answers-D">D) Sufficiently</label>
+                    </div>
+                
+                </li>
+                
+       
                 
                    <li>
                 
@@ -328,58 +345,7 @@ text-shadow: 1px 1px 0px #ccc;
                 
                 </li>
                 
-                   <li>
-                
-                    <h3>CSS Stands for...</h3>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
-                    </div>
-                
-                </li>
-                
-                   <li>
-                
-                    <h3>CSS Stands for...</h3>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
-                    </div>
-                
-                </li>
-                
+                	<h1><p><b><center>Section 01</center></b></p><p></p><p></p><p></p><p></p></h1>
                    <li>
                 
                     <h3>CSS Stands for...</h3>
@@ -909,62 +875,49 @@ text-shadow: 1px 1px 0px #ccc;
 	
 	
 	<script>
-var minutes = $( '#set-time' ).val();
+var h3 = document.getElementsByTagName("h3");
+h3[0].innerHTML = "You have five minutes to read the instructions. ";
 
-var target_date = new Date().getTime() + ((minutes * 60 ) * 1000); // set the countdown date
-var time_limit = ((minutes * 60 ) * 1000);
-//set actual timer
-setTimeout(
-  function() 
-  {
-    alert( 'done' );
-  }, time_limit );
+var sec         = 3000,
+    countDiv    = document.getElementById("timer"),
+    secpass,
+    countDown   = setInterval(function () {
+        'use strict';
+        
+        secpass();
+    }, 1000);
 
-var hours, minutes, seconds; // variables for time units
-
-var countdown = document.getElementById("tiles"); // get tag element
-
-getCountdown();
-
-setInterval(function () { getCountdown(); }, 1000);
-
-function getCountdown(){
-
-	// find the amount of "seconds" between now and target
-	var current_date = new Date().getTime();
-	var seconds_left = (target_date - current_date) / 1000;
-  
-if ( seconds_left >= 0 ) {
-  console.log(time_limit);
-   if ( (seconds_left * 1000 ) < ( time_limit / 2 ) )  {
-     $( '#tiles' ).removeClass('color-full');
-     $( '#tiles' ).addClass('color-half');
-
-		} 
-    if ( (seconds_left * 1000 ) < ( time_limit / 4 ) )  {
-    	$( '#tiles' ).removeClass('color-half');
-    	$( '#tiles' ).addClass('color-empty');
+function secpass() {
+    'use strict';
+    
+    var min     = Math.floor(sec / 60),
+        remSec  = sec % 60;
+    
+    if (remSec < 10) {
+        
+        remSec = '0' + remSec;
+    
     }
-  
-	days = pad( parseInt(seconds_left / 86400) );
-	seconds_left = seconds_left % 86400;
-		 
-	hours = pad( parseInt(seconds_left / 3600) );
-	seconds_left = seconds_left % 3600;
-		  
-	minutes = pad( parseInt(seconds_left / 60) );
-	seconds = pad( parseInt( seconds_left % 60 ) );
+    if (min < 10) {
+        
+        min = '0' + min;
+    
+    }
+    countDiv.innerHTML = min + ":" + remSec;
+    
+    if (sec > 0) {
+        
+        sec = sec - 1;
+        
+    } else {
+        
+        clearInterval(countDown);
+        
+        countDiv.innerHTML = 'countdown done';
+        
+    }
+}
 
-	// format countdown string + set tag value
-	countdown.innerHTML = "<span>" + hours + ":</span><span>" + minutes + ":</span><span>" + seconds + "</span>"; 
-  
-}
- 
-}
-
-function pad(n) {
-	return (n < 10 ? '0' : '') + n;
-}
 	</script>
 
 </body>
