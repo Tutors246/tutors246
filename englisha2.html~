@@ -61,18 +61,23 @@ article #timer{
 }
 	</style>
 
+
+
 </head>
 
 <body>
+
+
 
 	<div id="page-wrap">
 
 		<form action="grade.php" method="post" id="quiz">
 		
             <ol>
+                            	<h1><p><b><center>Section 01</center></b></p><p></p><p></p><p></p><p></p></h1>
             	
-	<h1><p><center>Directions: Each of the sentences given below contains one underlined word. Beneath each sentence there are four options marked A_D. Select the option which is nearest in meaning to the underlined word in the sentence.</center></p></h1>
-                <li>
+
+                <li>	<h1><p><center>Directions: Each of the sentences given below contains one underlined word. Beneath each sentence there are four options marked A_D. Select the option which is nearest in meaning to the underlined word in the sentence.</center></p></h1>
                 
                     <h3>The advertisement invites tourists to spend a day in an <u>authentic </u> sugar plantation setting.</h3>
                     
@@ -98,10 +103,10 @@ article #timer{
                 
                 </li>
                 
-                	<h1><p><center>Directions: Each of the sentences given below contains one underlined word. Beneath each sentence there are four options marked A_D. Select the option which is most nearly opposite in meaning to the underlined word in the sentence.</center></p></h1>                
+                            
                 
                 
-                <li>
+                <li>   	<h1><p><center>Directions: Each of the sentences given below contains one underlined word. Beneath each sentence there are four options marked A_D. Select the option which is most nearly opposite in meaning to the underlined word in the sentence.</center></p></h1> 
                 
                     <h3>As a <u>deterrent</u> to bad drivers, the government intends to introduce heavier fines for monitoring offences.</h3>
                     
@@ -127,85 +132,87 @@ article #timer{
                 
                 </li>
                 
-         <h1><p><center>Directions: Each of the sentences given below contains one blank space. Beneath each sentence there are four options marked A_D. Choose the option which containa the word or set of words that most logically completes the sentence.</center></p></h1>   
+         
                 
-                   <li>
+                   <li>  <h1><p><center>Directions: Each of the sentences given below contains one or more blank spaces. Beneath each sentence there are four options marked A_D. Choose the option which contains the word or set of words that most logically completes the sentence.</center></p></h1> 
                 
-                    <h3>CSS Stands for...</h3>
+                    <h3>The Prime Minister had appealed to the nation to _______ the new ________ programmes designed to stem inflation.</h3>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                        <label for="question-1-answers-A">A) recognize ....spending </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                        <label for="question-1-answers-B">B) consider ....development</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                        <label for="question-1-answers-C">C) support ....austerity</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
+                        <label for="question-1-answers-D">D) assist ....fiscal</label>
                     </div>
                 
                 </li> 
                 
                 
-         <h1><p><center>Directions: Each of the sentences given below contains one blank space. Beneath each sentence there are four options marked A_D. Choose the option which containa the word or set of words that most logically completes the sentence.</center></p></h1>                            
+                                     
                 
-                <li>
+                <li><h1><p><center>Directions: Beneath each of the following sentences there are four options marked A-D. Select the option whch means the same, or most nearly the same, as the origial sentence.</center></p></h1>
                 
-                    <h3>Many advertisements for beauty products contain <u> spurious </u> claims. </h3>
+                    <h3>The Budget speech was undoubtedly one of the briefest in years. </h3>
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
-                        <label for="question-2-answers-A">A) Realistic</label>
+                        <label for="question-2-answers-A">A) The Budget speech was without doubt a very brief one.</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
-                        <label for="question-2-answers-B">B) Amusing</label>
+                        <label for="question-2-answers-B">B) For along time the Budget speeches have been too long.</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
-                        <label for="question-2-answers-C">C) False </label>
+                        <label for="question-2-answers-C">C) This Buget speech was among the briefest we have had for some time. </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
-                        <label for="question-2-answers-D">D) Ridiculous </label>
+                        <label for="question-2-answers-D">D) Unadoubtedly, this was one of the brifest Budget speeches ever made.  </label>
                     </div>
                 
                 </li>
                 
-                <li>
                 
-                    <h3>Even though he was an old schoolfirend, the Bank Manager had to consider Errol's request for a bank loan <u>objectively</u></h3>
+                 
+                <li><h1><p><center>Directions: Part of each of the sentences given below is underlined. THe underlined part of each sentence is rewritten in four ways, marked A-D, beneath each sentence. Option A is a repetition of the underlined part in the sentence. Choose the anser A-D that makes the best sentence.</center></p></h1> 
+                
+                    <h3>Will you <u> borrow me your sports gears </u> for games this afternoon?</h3>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
-                        <label for="question-3-answers-A">A) Philisophically</label>
+                        <label for="question-3-answers-A">A) borrow me your sports gears</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
-                        <label for="question-3-answers-B">B) Calmly</label>
+                        <label for="question-3-answers-B">B) lend me your sports gears</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
-                        <label for="question-3-answers-C">C) Rationally</label>
+                        <label for="question-3-answers-C">C) borrow me your sports gear</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
-                        <label for="question-3-answers-D">D) Emotionally</label>
+                        <label for="question-3-answers-D">D) lend me your sports gear</label>
                     </div>
                 
                 </li>
@@ -213,368 +220,497 @@ article #timer{
 	
 
                 
-                <li>
+                <li> <h1><p><center>Directions: In each question there are four sentences marked A-D. Each sentence is punctuated or captialized in a different way, though the wording is the same.  </center></p></h1> 
                 
-                    <h3>The letter she received from her brother, who is living in Canda, contained some <u>profoundly</u> disturbing news about his family.</h3>
+                    <h3>Choose the sentence which is punctuated correctly.</h3>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
-                        <label for="question-5-answers-A">A) Slenderly</label>
+                        <label for="question-5-answers-A">A) 'But I remember now! cried Newton, his exact words were, I gave the keys to Devon last night'.</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
-                        <label for="question-5-answers-B">B) Mildly</label>
+                        <label for="question-5-answers-B">B) 'But, I remember now, cried Newton!, "His exact words were 'I gave the keys to Devon last night".</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
-                        <label for="question-5-answers-C">C) Moderately</label>
+                        <label for="question-5-answers-C">C) 'But I remember now!' cried Newton. 'His exact words were, "I gave the keys to Devon last night".'</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
-                        <label for="question-5-answers-D">D) Deeply</label>
+                        <label for="question-5-answers-D">D) But I remember now, cried Newton! His exact words were'I gave the keys to Devon last night.'.</label>
                     </div>
                 
                 </li>
                 
-                   <li>
+               
                 
-                    <h3>The lawyer felt that his client had been given an <u>unduly</u> harsh sentence.</h3>
+                
+                   <li> <h1><p><center>Directions: Alter each of the sentences given below in accordance with the instructions that follow it. Look at the choices A-D and choose the word or phrase that should be included in your revised sentence.   </center></p></h1> 
+                
+                    <h3>The Conservatives did not expect to be toppled from government in the last elections. <br/> Change <u>did</u> to <u>had </u></h3>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Unnecessarily </label>
+                        <label for="question-1-answers-A">A) expect </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Appropriately</label>
+                        <label for="question-1-answers-B">B) expected</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Particularly</label>
+                        <label for="question-1-answers-C">C) expecting</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) Sufficiently</label>
+                        <label for="question-1-answers-D">D) to expect</label>
                     </div>
                 
                 </li>
                 
        
                 
-                   <li>
+                   <li><h1><p><center>Directions: Some of the sentences below are incorrect becaue of errors in grammar, idiom or vocabulary. Some are correct as they are. No sentence contains more than one error. <br/> Look at the underlined sections in each sentence and if you consider that one of these is incorrect write down the appropriate letter. If the sentence is correct as it is, choose D.</center></p></h1> 
                 
-                    <h3>CSS Stands for...</h3>
+                    <h3>The Coffee Board <u> is doing</u><sub>(A)</sub> everything it can to ensure that <u>its</u><sub>(B)</sub> product <u>retain</u><sub>(C)</sub> its high Standard.  </h3>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                        <label for="question-1-answers-A">A) A </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                        <label for="question-1-answers-B">B) B </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                        <label for="question-1-answers-C">C) C</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
+                        <label for="question-1-answers-D">D) D <u>No error</u></label>
+                    </div>
+                
+                </li>
+                
+                
+                 
+                   <li> <h1><p><center>Directions: The sentence below maybe incorrect because it contains one of three types of error. If the sentence is incorrect, it contains only one type of error. </center></p>
+                  <p>Choose the following options accordingly:</p>
+                  
+                  <p><strong>A</strong>if the sentence is <em>too wordy</em> (repetitive) or contains unneccessary words.</p>
+                  <p><strong>B</strong>if the sentence contains <em>cliches or metaphors </em> which have been used wrongly.</p>
+                  <p><strong>C</strong>if the sentence contains <em>faulty grammar</em> or is <em>incorrect in diction</em>.</p>
+                  <p><strong>D</strong> if the sentence is <em>correct as it is.</em></p>
+                  
+                  </h1>
+                
+                    <h3>Describe each sentence by letter</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                        <label for="question-1-answers-A">A) A </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                        <label for="question-1-answers-B">B) B</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                        <label for="question-1-answers-C">C) C</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                        <label for="question-1-answers-D">D) D</label>
+                    </div>
+                
+                </li>
+                
+                   <li><h1><p><center>Directions: Alter each of the sentences given below in accordance with the instructions that follow it. Look at the choices A to D and choose the word or phrase that should be included in your revised sentence.</center></p></h1> 
+                
+                    <h3>The rent-collector said that he had no intention of returning the following day. <br/> Change <u>said</u> to <u>refused</u></h3>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                        <label for="question-1-answers-A">A) that he intended to return </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                        <label for="question-1-answers-B">B) the intention of returning</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                        <label for="question-1-answers-C">C) returning</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                        <label for="question-1-answers-D">D) to return</label>
+                    </div>
+                
+                </li>
+                
+                
+                
+                	<h1><p><b><center>Section 02</center></b></p><p></p><p></p><p></p><p></p></h1>
+                	<p></p>
+              
+              
+           <font color="#58537E">       <p><u>The Leader</u></p>
+                  <p>The streets overflowed: the traffic</p>
+                  <p>came to a halt minutes before</p>
+                  <p>the limousine came into view.</p>
+                  <p>The town held its breath: children</p>
+                  <p>whispered. A policeman dropped</p>
+                  <p>his baton. A crowd strained at the leash.</p>
+                  <p></p><p></p><p></p><p></p>
+                  <p>Above, a crow flew in absolute </p>
+                  <p>freedom. From the airport</p>
+                  <p>to the city a people waited. </p>
+                  <p>Paper flags were waved, slogans</p>
+                  <p>chanted. He had changed the face </p>
+                  <p>of the country (you laugh), yes,</p>
+                  <p>with speeches and brave promises</p>
+                  <p>and eternal vigilance and all that. </p>
+                  <p></p><p></p><p></p><p></p>
+                  <p>When he appeared waving</p>
+                  <p>a hand he seemed tried and yawned.</p>
+                  <p></p><p></p><p></p><p></p>
+                  <p></p> <p></p> <p></p>
+                  <p>R. Parthasarathy</p></font>
+   
+   
+               
+                 <li>
+                
+                    <h3>The sentence construction in the first stanza creates a mood of</h3>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+                        <label for="question-1-answers-A">A) gaiety </label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+                        <label for="question-1-answers-B">B) hysteria</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+                        <label for="question-1-answers-C">C) expectancy</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+                        <label for="question-1-answers-D">D) fear.</label>
                     </div>
                 
                 </li>
                 
                    <li>
                 
-                    <h3>CSS Stands for...</h3>
+                    <h3>The people's behaviour suggests that they are all of the following except</h3>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                        <label for="question-1-answers-A">A) easily influenced by political propaganda </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                        <label for="question-1-answers-B">B) unhappy about the way the country is being run</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                        <label for="question-1-answers-C">C) kept in check by the authorities</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
+                        <label for="question-1-answers-D">D) in awe of the leader.</label>
                     </div>
                 
                 </li>
                 
                    <li>
                 
-                    <h3>CSS Stands for...</h3>
+                    <h3>The poet seems to be</h3>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                        <label for="question-1-answers-A">A) a supporter of a rival political party </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                        <label for="question-1-answers-B">B) a member of the leader's political party</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                        <label for="question-1-answers-C">C) sympathetic towards hard-working public servants</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
-                    </div>
-                
-                </li>
-                
-                	<h1><p><b><center>Section 01</center></b></p><p></p><p></p><p></p><p></p></h1>
-                   <li>
-                
-                    <h3>CSS Stands for...</h3>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
+                        <label for="question-1-answers-D">D) a critic of the country's leadership.</label>
                     </div>
                 
                 </li>
                 
                    <li>
                 
-                    <h3>CSS Stands for...</h3>
+                    <h3>Which one of the following statements is most suggestive of the relationship between the leader and people, as seen by the poet?</h3>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                        <label for="question-1-answers-A">A) 'The streets overflowed' (line 1) </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                        <label for="question-1-answers-B">B) 'The town held its breath' (line 4)</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                        <label for="question-1-answers-C">C) 'A crowd strained at the leash' (line 6)	</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
+                        <label for="question-1-answers-D">D) 'Paper flags were waved' (line 10)</label>
                     </div>
                 
                 </li>
                 
+                
+                  <font color="#58537E">       <p><u>The Factory </u></p>
+                 <p> Mr Foster rubbed his hands. For, of course, they didn’t content themselves with merely
+<p>hatching out embryos: any cow could do that.
+<p>“We also predestine and condition. We <sub>5</sub>decant our babies as socialized human
+<p>beings, as Alphas or Epsilons, as future sewage workers or future .” He was
+<p>going to say “future World controllers,” but correcting himself, said “future
+<p>Directors of Hatcheries,” instead.
+<p><sub>10</sub>The D.H.C. acknowledged the compliment with a smile.
+<p>They were passing Metre 320 on Rack 11. A young Beta-Minus mechanic was
+<p>busy with screw-driver and spanner on the blood-surrogate <sub>15</sub>pump of a passing
+<p>bottle. The hum of the electric motor deepened by fractions of a tone as he
+<p>turned the nuts. Down, down. A final twist, a glance at the revolution counter,
+<p>and he was done. He moved two paces down <sub>20</sub>the line and began the same
+<p>process on the next pump.
+<p>“Reducing the number of revolutions per minute,” Mr. Foster explained. “The
+<p>surrogate goes round slower; therefore passes through <sub>25</sub>the lung at longer intervals;
+<p>therefore gives the embryo less oxygen. Nothing like oxygen- shortage for
+<p>keeping an embryo <sub>30</sub>below par.” Again he rubbed his hands.
+<p>“But why do you want to keep the embryo below par?” asked an ingenuous
+<p>student.
+<p>“Ass!” said the Director, breaking a long silence. “Hasn’t it occurred to you that
+<p>an Epsilon embryo must have an Epsilon environment as well as an Epsilon
+<p>heredity?”
+<p><sub>35</sub>It evidently hadn’t occurred to him. He was covered with confusion.
+<p>“The lower the caste,” said Mr. Foster, “the shorter the oxygen.” The first organ
+<p>affected was the brain. After <sub>40</sub>that the skeleton. At seventy per cent of normal
+<p>oxygen you got dwarfs. At less than seventy eyeless monsters.
+<p>“Who are no use at all,” concluded Mr. Foster.
+<p>Whereas (his voice became confidential and <sub>45</sub>eager), if they could discover a
+<p>technique for shortening the period of maturation what a triumph, what a benefaction
+<p>to Society!
+<p>“Consider the horse.”
+<p>They considered it.
+<p><sub>50</sub>Mature at six; the elephant at ten. While at thirteen a man is not yet sexually
+<p>mature; and is only full-grown at twenty. Hence, of course, that fruit of delayed
+<p>development, the human intelligence.
+<p><sub>55</sub>“But in Epsilons,” said Mr. Foster very justly, “we don’t need human intelligence.”
+<p>Didn’t need and didn’t get it. But though the Epsilon mind was mature at ten,
+<p>the Epsilon body was not fit to work till eighteen.<sub>60</sub> Long years of superfluous
+<p>and wasted immaturity. If the physical development could be speeded up till it
+<p>was as quick, say, as a cow’s, what an enormous saving to the Community!
+<p>“Enormous!” murmured the students. <sub>65</sub>Mr. Foster’s enthusiasm was infectious.
+<p>He became rather technical; spoke of the abnormal endocrine co-ordination
+<p>which made men grow so slowly; postulated a germinal mutation to account
+<p>for it. Could the effects of <sub>70</sub>this germinal mutation be undone? Could the individual
+<p>Epsilon embryo be made a revert, by a suitable technique, to the normality
+<p>of dogs and cows? That was the problem. And it was all but solved.
+<sub>75</sub> Aldous Huxley, <em>Brave New World</em>
+        </font>
                    <li>
                 
-                    <h3>CSS Stands for...</h3>
+                    <h3>This factory appears to be in the business of</h3>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                        <label for="question-1-answers-A">A) producing babies </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                        <label for="question-1-answers-B">B) testing the use of oxygen</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                        <label for="question-1-answers-C">C) experimenting with animals</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
-                    </div>
-                
-                </li>
-                
-                   <li>
-                
-                    <h3>CSS Stands for...</h3>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
-                    </div>
-                
-                </li>
-                
-                   <li>
-                
-                    <h3>CSS Stands for...</h3>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
-                    </div>
-                    
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
+                        <label for="question-1-answers-D">D) effecting germinal mutations.</label>
                     </div>
                 
                 </li>
 
    <li>
                 
-                    <h3>CSS Stands for...</h3>
+                    <h3>Mr. Foster appears to ______ his work in the factory.</h3>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                        <label for="question-1-answers-A">A) relish </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                        <label for="question-1-answers-B">B) dislike</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                        <label for="question-1-answers-C">C) be enthusiastic about</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
+                        <label for="question-1-answers-D">D) be bored by</label>
                     </div>
                 
                 </li>
                 
                    <li>
                 
-                    <h3>CSS Stands for...</h3>
+                    <h3>The sentence 'We also predestine and considiton' (line 4) indicates that the factory is involved with which one of the following?</h3>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                        <label for="question-1-answers-A">A) telling the future of people </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                        <label for="question-1-answers-B">B) shaping the lives of other people</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                        <label for="question-1-answers-C">C) reducing people to the level of animals</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
+                        <label for="question-1-answers-D">D) deciding what occupations people will purue</label>
                     </div>
                 
                 </li>
 
    <li>
                 
-                    <h3>CSS Stands for...</h3>
+                    <h3>The embryos in the factory are divided into groups according to which of the following capacities?</h3>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                        <label for="question-1-answers-A">A) mental </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                        <label for="question-1-answers-B">B) both mental and physical</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                        <label for="question-1-answers-C">C) physical</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
+                        <label for="question-1-answers-D">D) emotional</label>
                     </div>
                 
                 </li>
+                
+                
+                <font color="#58537E">       <p><u>Noise </u></p>
+                <section>
+                <p>I have often heard it said here in Britain that people dislike West</p>
+                <p>Indians because they are too noisy. When this charge is repeated to</p>
+                <p>the West Indians, they are genuinely astonished. They? Noisy? They</p>
+                <p>never heard such nonsense in their lives</p>
+                </section>
+                
+                <section>
+					<p>We have created the loudest and noisiest society in history - with</p>
+					<p>its deafening roar of traffic, motor cycles, hooters, trains, trams</p>
+					<p>typewriters, blaring loud-speakers, transistor radios, police-car sirens</p>
+					<p>fire engine bells, screeching brakes and ear splitting jet-planes overhead</p>
+					<p>day and night.</p>                
+                </section>
+                
+                <section>
+					<p>We accept the shattering noise of the electric drill right under our windows</p>
+					<p>but complain bitterly when our neighbours- particularly our coloured neighbours-</p>
+					<p>laugh too loudly; party-political propaganda booming from mobile loud-speaker vans </p>
+					<p>seems to be perfectly all right, but a few Calypsos sung by some happy people - admittedly</p>
+					<p>occassionally at 2:30 in the morning - is an intolerable nusisance. Perhaps it is. Yet, we</p>
+					<p>instinctively honour the stiff upper lip, the smug silence and constipation, while we reject</p>
+					<p>laughter, ebullience and songs of joys.</p>                
+                </section>
+                
+                <section>
+                <p>We know only too well, of course, that only the grave is quiet and life must be a little noisy</p>
+                <p>The truth is simply that we prefer our own familiar noises to other people's pleasant but alien noises</p>
+                </section>
+                
+                From Not by Sun Alone by George Mikes
+                
+                </font>
                    <li>
                 
-                    <h3>CSS Stands for...</h3>
+                    <h3>The facot which is most important in the creation of Epsilons is </h3>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                        <label for="question-1-answers-A">A) environment </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                        <label for="question-1-answers-B">B) heredity</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                        <label for="question-1-answers-C">C) blood</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
+                        <label for="question-1-answers-D">D) oxygen.</label>
                     </div>
                 
                 </li>
