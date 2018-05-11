@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("https://static1.squarespace.com/static/52d6cb6be4b0b5fc69b8d205/t/5307d431e4b06c565def6aa7/1393022004734/education-background-checks.jpg?format=1500w");
+    text-rendering: all;
+    min-height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Add styles to the form container */
+.container {
+    position: center relative;
+    right: 0;
+    margin: 20px;
+    max-width: 600px;
+    padding: 16px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+</style>
+
+</head>
+
+<body>
+<div class="bg-img"><br /><center><img src="img/logo.png.png" height="auto" width="auto" /><br /><h2><medium>Welcome to our online learning community!</medium></center></h2>
+  <form action="/action_page.php">
+    <div class="container">
+      <h1><center>Login</center></h1>
+	  
+	  <div class="imgcontainer">
+	  <img src="https://www.nettutor.com/images/tutorqual.png" alt="Avatar" class="avatar">
+	  </div>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit" class="btn">Login</button>
+	  </div>
+</form>
+  
+  <p><center>Need an account!<a href="index.php"> Register </a></center></p>
+
+</div>
+</body>
+</html>
