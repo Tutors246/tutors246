@@ -1,0 +1,577 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Tutors246 Online Course Portal</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="assets/css/animate.min.css" rel="stylesheet" />
+
+    <!--  Light Bootstrap Table core CSS    -->
+    <link href="assets/css/light-bootstrap-dashboard.css?v=1.4.0" rel="stylesheet" />
+
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+
+
+    <!--     Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+
+    <style>
+        .button {
+            background-color: #024457;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            font-size: 16px;
+            margin: 4px 2px;
+            opacity: 0.6;
+            transition: 0.3s;
+            display: inline-block;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        .button:hover {
+            opacity: 1
+        }
+    </style>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+         ::-webkit-scrollbar {
+            display: none;
+        }
+        
+         ::-moz-scrollbar {
+            display: none;
+        }
+        
+        html,
+        body {
+            height: 100%;
+        }
+        
+        header {
+            position: fixed;
+            top: 0;
+            height: 250px;
+            width: 100%;
+            pointer-events: none;
+        }
+        
+        header .title {
+            position: absolute;
+            top: 50%;
+            left: 80px;
+            color: white;
+            font-size: 40px;
+            line-height: 40px;
+            margin-top: -20px;
+            transition: .3s all ease;
+            z-index: 999;
+            font-family: Roboto;
+            font-weight: 300;
+            text-transform: capitalize;
+        }
+        
+        header .header-bg {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            background: #024457;
+            transition: .3s all ease;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+        
+        header.active .title {
+            font-size: 20px;
+            -webkit-transform: translate(-30px, -85px);
+            -moz-transform: translate(-30px, -85px);
+            -ms-transform: translate(-30px, -85px);
+            -o-transform: translate(-30px, -85px);
+            transform: translate(-30px, -85px);
+            transition: .3s all ease .15s;
+        }
+        
+        header.active .header-bg {
+            -webkit-transform: translateY(-170px);
+            -moz-transform: translateY(-170px);
+            -ms-transform: translateY(-170px);
+            -o-transform: translateY(-170px);
+            transform: translateY(-170px);
+            background: #024457;
+            transition: .3s all ease .15s;
+        }
+        
+        header.active .cta-ctr {
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            transition: .5s all ease .2s;
+        }
+        
+        header.active .cta:after {
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+            transition: .5s all ease .2s;
+            box-shadow: 0 -8px 12px 1px rgba(0, 0, 0, 0.15);
+        }
+        
+        header .cta-ctr {
+            position: absolute;
+            top: 50px;
+            right: 50px;
+            bottom: 0;
+            -webkit-transform-origin: bottom center;
+            -moz-transform-origin: bottom center;
+            -ms-transform-origin: bottom center;
+            -o-transform-origin: bottom center;
+            transform-origin: bottom center;
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+            transition: .3s all ease;
+        }
+        
+        header .cta {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: .3s all ease;
+            pointer-events: auto;
+            position: relative;
+        }
+        
+        header .cta:after {
+            content: "";
+            box-shadow: 0 8px 12px 1px rgba(0, 0, 0, 0.15);
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/111167/arrow-down.svg") no-repeat center 14px transparent;
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+            transition: .3s all ease;
+        }
+        
+        .img {
+            height: 200px;
+            width: 200px;
+        }
+        
+        .content-ctr {
+            width: 100%;
+            height: 100%;
+            background: white;
+            overflow: scroll;
+            position: relative;
+        }
+        
+        .content-ctr.active .header-content-ctr {
+            height: 0%;
+            transition: .3s height ease .45s;
+        }
+        
+        .content-ctr.active .header-content-ctr .title {
+            transition: .3s all ease;
+            opacity: 0;
+            -webkit-transform: translateY(-20px);
+            -moz-transform: translateY(-20px);
+            -ms-transform: translateY(-20px);
+            -o-transform: translateY(-20px);
+            transform: translateY(-20px);
+        }
+        
+        .content-ctr.active .header-content-ctr .par {
+            transition: .3s all ease .05s;
+            opacity: 0;
+            -webkit-transform: translateY(-20px);
+            -moz-transform: translateY(-20px);
+            -ms-transform: translateY(-20px);
+            -o-transform: translateY(-20px);
+            transform: translateY(-20px);
+        }
+        
+        .content-ctr.active .main-content-ctr {
+            height: 100%;
+            overflow: scroll;
+        }
+        
+        .content-ctr.active .main-content-ctr .title {
+            transition: .3s all ease .65s;
+            -webkit-transform: translateY(0px);
+            -moz-transform: translateY(0px);
+            -ms-transform: translateY(0px);
+            -o-transform: translateY(0px);
+            transform: translateY(0px);
+            opacity: 1;
+        }
+        
+        .content-ctr.active .main-content-ctr .par {
+            transition: .3s all ease .7s;
+            -webkit-transform: translateY(0px);
+            -moz-transform: translateY(0px);
+            -ms-transform: translateY(0px);
+            -o-transform: translateY(0px);
+            transform: translateY(0px);
+            opacity: 1;
+        }
+        
+        .content-ctr .title {
+            font-family: Roboto;
+            margin-bottom: 30px;
+            font-size: 34px;
+            color: #024457;
+            transition: .3s all ease;
+        }
+        
+        .content-ctr .par {
+            font-family: Roboto;
+            font-size: 18px;
+            line-height: 1.5;
+            font-weight: 300;
+            color: #777;
+        }
+        
+        .content-ctr .header-content-ctr {
+            position: relative;
+            height: 100%;
+            overflow: hidden;
+            transition: .3s height ease;
+        }
+        
+        .content-ctr .header-content-ctr .title {
+            transition: .3s all ease .15s;
+        }
+        
+        .content-ctr .header-content-ctr .par {
+            transition: .3s all ease .3s;
+        }
+        
+        .content-ctr .header-content {
+            position: absolute;
+            right: 0;
+            bottom: 110px;
+            left: 80px;
+        }
+        
+        .content-ctr .main-content-ctr {
+            position: relative;
+            min-height: 0%;
+            transition: .3s height ease;
+            overflow: hidden;
+        }
+        
+        .content-ctr .main-content-ctr .title,
+        .content-ctr .main-content-ctr .par {
+            opacity: 0;
+            -webkit-transform: translateY(20px);
+            -moz-transform: translateY(20px);
+            -ms-transform: translateY(20px);
+            -o-transform: translateY(20px);
+            transform: translateY(20px);
+        }
+        
+        .content-ctr .main-content {
+            position: relative;
+            top: 50%;
+            right: 0;
+            left: 0;
+            margin-left: 50px;
+            margin-top: -59px;
+        }
+        
+        .title {
+            align-content: content-ctr;
+        }
+    </style>
+
+    <script>
+        (function() {
+            var button, contentCtr;
+
+            button = document.querySelector(".cta");
+
+            contentCtr = document.querySelector(".content-ctr");
+
+            button.addEventListener("click", function() {
+                var header;
+                header = this.parentElement.parentElement;
+                header.classList.toggle("active");
+                return contentCtr.classList.toggle("active");
+            });
+
+            balapaCop("Material Scroll Animation", "#999");
+
+        }).call(this);
+    </script>
+
+    <script>
+        alert("Yeah! You have completed five sections of our online course, and now on to Section 5 - Algebra.");
+    </script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="sidebar" data-color="#8FBC8F" data-image="assets/img/sidebar-5.jpg">
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <img src="img/logo.png.png" />
+                </div>
+
+                <ul class="nav">
+                    <li class="active">
+                        <a href="dashboard.html">
+                            <i class="pe-7s-graph"></i>
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="user.html">
+                            <i class="pe-7s-user"></i>
+                            <p>User Profile</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="table.html">
+                            <i class="pe-7s-note2"></i>
+                            <p>Enrolled Courses</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="typography.html">
+                            <i class="pe-7s-study"></i>
+                            <p>Progress Report</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://tutors246.com/ourtutors.html">
+                            <i class="pe-7s-notebook"></i>
+                            <p>Schedule A Tutor</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="maps.html">
+                            <i class="pe-7s-culture pe-fw"></i>
+                            <p>Courses</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="admin.html">
+                            <i class="pe-7s-config pe-fw"></i>
+                            <p>Admin Login</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-panel">
+            <nav class="navbar navbar-default navbar-fixed">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="navbar-brand" href="#">Dashboard</a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-dashboard"></i>
+                                    <p class="hidden-lg hidden-md">Dashboard</p>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-globe"></i>
+                                    <b class="caret hidden-lg hidden-md"></b>
+                                    <p class="hidden-lg hidden-md">
+                                        5 Notifications
+                                        <b class="caret"></b>
+                                    </p>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Notification 1</a></li>
+                                    <li><a href="#">Notification 2</a></li>
+                                    <li><a href="#">Notification 3</a></li>
+                                    <li><a href="#">Notification 4</a></li>
+                                    <li><a href="#">Another notification</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-search"></i>
+                                    <p class="hidden-lg hidden-md">Search</p>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="">
+                                    <p>Account</p>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <p>
+                                        Dropdown
+                                        <b class="caret"></b>
+                                    </p>
+
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>Log out</p>
+                                </a>
+                            </li>
+                            <li class="separator hidden-lg"></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class='content-ctr'>
+                <div class='header-content-ctr'>
+                    <div class='header-content'>
+                        <center>
+                            <img src="https://www.crsd.org/cms/lib/PA01000188/Centricity/Domain/386/algebra_lg_nwm.gif" height="200px" width="200px" /></center>
+                        <h1 class='title'><b>GENERAL OBJECTIVES</b></h1>
+                        <p class='par'>On completion of this Section, students should:
+                            <ol class='par'>
+                                <li>Appreciate the use of algebra as a language and a form of communication;</li>
+                                <li>Appreciate the role of symbols and algebraic techniques in solving problems in mathematics and related fields;</li>
+                                <li>Demonstrate the ability to reason with abstract entities.</li>
+                            </ol>
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <header>
+                    <div class='header-bg'></div>
+                    <div class='title'>SECTION 5 - ALGEBRA</div>
+                    <div class='cta-ctr'>
+                        <div class='cta'></div>
+                    </div>
+                </header>
+
+
+
+                <p align=" right ">
+                    <button class="button ">
+            <a href="vectorsandmatrices1.html ">Continue</a>
+        </button>
+                </p>
+
+                <footer class="footer ">
+                    <div class="container-fluid ">
+                        <nav class="pull-left ">
+                            <ul>
+                                <li>
+                                    <a href="dashboard.html ">
+                                Home
+                            </a>
+                                </li>
+                                <li>
+                                    <a href="http://tutors246.com/ ">
+                                Tutors246
+                            </a>
+                                </li>
+                                <li>
+                                    <a href="http://tutors246.com/ourtutors.html ">
+                                Our Tutors
+                            </a>
+                                </li>
+                                <li>
+                                    <a href="https://tutors246.wordpress.com/ ">
+                               Blog
+                            </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <p class="copyright pull-right ">
+                            &copy;
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script> <a href="https://tutors246.wordpress.com/ ">Tutors246</a>, Achieve Academic Success! </p>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+
+
+</body>
+
+<!--   Core JS Files   -->
+<script src="assets/js/jquery.3.2.1.min.js " type="text/javascript "></script>
+<script src="assets/js/bootstrap.min.js " type="text/javascript "></script>
+
+<!--  Charts Plugin -->
+<script src="assets/js/chartist.min.js "></script>
+
+<!--  Notifications Plugin    -->
+<script src="assets/js/bootstrap-notify.js "></script>
+
+<!--  Google Maps Plugin    -->
+<script type="text/javascript " src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE "></script>
+
+<!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
+<script src="assets/js/light-bootstrap-dashboard.js?v=1.4.0 "></script>
+
+<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
+<script src="assets/js/demo.js "></script>
+
+
+</html>
